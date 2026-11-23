@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, viewport-fit=cover">
+  <meta name="color-scheme" content="light dark">
+  <script>
+    try {
+      var savedScheme = localStorage.getItem('vp-med-color-scheme');
+      if (savedScheme === 'light' || savedScheme === 'dark') {
+        document.querySelector('meta[name="color-scheme"]').content = savedScheme;
+      }
+    } catch (e) {}
+  </script>
+  <meta name="theme-color" content="#0f766e">
+  <title>Vikkypaedia Medicine Basics Module — Harrison's 22nd Edition</title>
+  <link rel="manifest" href="manifest.json">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<!-- ═══════════════════════════════════════════════════════════════════════════
+     1. COURSERA / HARVARD CME STYLE LANDING PAGE
+     ═══════════════════════════════════════════════════════════════════════════ -->
+<div id="course-landing" class="course-landing">
+
+  <header class="landing-nav">
+    <div class="logo" id="landing-logo-top" role="button" tabindex="0" aria-label="Scroll to top">
+      <div class="logo-icon vp-logo-icon"><span class="vp-mono">Vp</span></div>
+      <div>
+        <span class="logo-title">Vikkypaedia Academy</span>
+        <span class="logo-sub">Harrison's 22e Medicine Basics &middot; v9.2</span>
+      </div>
+    </div>
+    <nav class="landing-nav-links" aria-label="Course sections">
+      <a href="#overview">Overview</a>
+      <a href="#chapters-hub">30 Chapters Hub</a>
+      <a href="#syllabus">10-Unit Syllabus</a>
+      <a href="#references">35 Citations</a>
+      <button type="button" class="theme-toggle-btn" data-action="dark-mode" aria-label="Toggle Night Shift Dark Mode">
+        <span class="theme-opt-dark">🌙 Night Shift</span>
+        <span class="theme-opt-light">☀️ Daylight</span>
+      </button>
+      <button type="button" class="landing-login-btn" id="open-login-modal-btn">👤 Profile / Track</button>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section id="overview" class="landing-hero">
+    <div class="landing-hero-content">
+      <div class="landing-badges">
+        <span class="badge-tag">Harrison's Principles of Internal Medicine · 22nd Edition (2025)</span>
+        <span class="badge-tag">30 Complete Readable Chapters + 177 Original Tables, Figures &amp; Flowcharts</span>
+        <span class="badge-tag">30 Mind Maps · 120 Flashcards · 113 MCQs · 10 Algorithms</span>
+      </div>
+
+      <h1 class="landing-title">
+        Vikkypaedia Medicine Basics Module<br>
+        <span class="hero-accent">Full Chapters, Original Tables, Flowcharts, Mind Maps &amp; Quizzes</span>
+      </h1>
+
+      <p class="landing-subtitle">
+        Every single foundational chapter from <strong>Harrison's 22nd Edition (Parts 1–3)</strong> is built right inside — read the <strong>complete full chapter text</strong>, zoom through all <strong>177 original Harrison's color Tables, Diagnostic Flowcharts, Algorithms &amp; Clinical Figures</strong>, explore <strong>30 interactive Mind Maps</strong>, drill <strong>120 per-chapter SM-2 flashcards</strong>, and master <strong>113 chapter-specific Socratic MCQs</strong>.
+      </p>
+
+      <!-- Interactive 3-Tier CBME Track Selector -->
+      <div class="hero-track-selector">
+        <span class="hero-track-label">Select Your 3-Tier CBME Competency Track:</span>
+        <div class="hero-track-pills">
+          <button type="button" class="hero-track-pill" data-role="Nurse">
+            <strong>🩺 L1 · Nursing &amp; Rural Triage Track</strong>
+            <span>Bedside danger signs, 10-min ECG, hyperkalemia calcium first, qSOFA, coma glucose/thiamine &amp; ODS safety</span>
+          </button>
+          <button type="button" class="hero-track-pill" data-role="UG">
+            <strong>🎓 L2 · Undergraduate / MBBS Clerkship (L1+L2)</strong>
+            <span>Bayes' theorem, A–a gradients, Winter's formula, SAAG/SBP, FENa vs FEUrea, mixing studies &amp; SPIKES</span>
+          </button>
+          <button type="button" class="hero-track-pill active" data-role="PG">
+            <strong>🏥 L3 · Postgraduate / Internal Medicine Resident (All 3 Tiers)</strong>
+            <span>ROC thresholds, FDG-PET in FUO, methemoglobinemia, pontine localization, delta-delta &amp; zero-order PK</span>
+          </button>
+        </div>
+      </div>
+
+      <div class="landing-meta-grid">
+        <div class="l-meta"><strong>📖 30 Full Chapters</strong><span>Complete Harrison's 22e Text</span></div>
+        <div class="l-meta"><strong>📊 177 Tables &amp; Figures</strong><span>Original Flowcharts &amp; Algos</span></div>
+        <div class="l-meta"><strong>🧠 30 Mind Maps + 120 Cards</strong><span>Per-Chapter Visual Recall</span></div>
+        <div class="l-meta"><strong>📝 113 MCQs + 10 Algos</strong><span>Socratic Hints &amp; 3 ER Sims</span></div>
+      </div>
+
+      <div class="landing-cta-row">
+        <button type="button" id="enter-course-btn" class="landing-cta-btn">
+          Open Study Cockpit (Ch. 1 / Unit 1) →
+        </button>
+        <button type="button" id="launch-atlas-direct-btn" class="landing-sim-btn">
+          📊 Browse All 177 Tables &amp; Flowcharts
+        </button>
+        <button type="button" id="launch-sim-direct-btn" class="landing-sim-btn">
+          🏥 Virtual ER Simulator (3 Cases)
+        </button>
+        <button type="button" id="launch-param-direct-btn" class="landing-sim-btn">
+          🎲 Parameterized Drill Lab
+        </button>
+      </div>
+    </div>
+  </section>
+
+  <!-- NEW: 30 INDIVIDUAL CHAPTERS QUICK-LAUNCH HUB -->
+  <section id="chapters-hub" class="landing-chapters-hub">
+    <div class="syllabus-container">
+      <div class="sec-head-center">
+        <span class="sec-eyebrow">DIRECT CHAPTER ACCESS · ZERO LOCKS</span>
+        <h2>All 30 Harrison's 22nd Edition Chapters — Direct Launch Hub</h2>
+        <p>Pick any individual chapter below to jump straight into its <strong>Full Chapter Reader</strong>, <strong>Mind Map</strong>, <strong>Flashcards</strong>, or <strong>Chapter Quiz</strong>.</p>
+      </div>
+      <div class="ref-filter-bar">
+        <input type="search" id="landing-chapter-search" class="ref-search-input" style="max-width:520px;" aria-label="Search 30 chapters" placeholder="Search any chapter (e.g., Fever, Chest, Acidosis, Coma, Anemia, Pharmacology)...">
+        <span id="landing-chapter-count" style="font-size:0.86rem;font-weight:700;color:var(--text-muted);">Showing all 30 chapters</span>
+      </div>
+      <div id="landing-chapters-grid" class="chapters-hub-grid"></div>
+    </div>
+  </section>
+
+  <!-- Interactive 10-Unit Syllabus Explorer -->
+  <section id="syllabus" class="landing-syllabus">
+    <div class="syllabus-container">
+      <div class="sec-head-center">
+        <span class="sec-eyebrow">ORGANIZED BY CLINICAL MODULE</span>
+        <h2>Interactive 10-Unit Syllabus &amp; Competency Blueprint</h2>
+        <p>Prefer studying unit-by-unit? Expand any clinical unit to inspect its grouped Harrison's 22e chapters, sandboxes, and resuscitation puzzles.</p>
+      </div>
+      <div id="landing-syllabus-accordion" class="syllabus-accordion"></div>
+    </div>
+  </section>
+
+  <!-- 35-Reference Non-Hallucinated Harrison's 22e Bibliography -->
+  <section id="references" class="landing-references">
+    <div class="syllabus-container">
+      <div class="sec-head-center">
+        <span class="sec-eyebrow">VERIFIED BIBLIOGRAPHIC INDEX</span>
+        <h2>35 Non-Hallucinated Harrison's 22nd Edition &amp; Guideline Citations</h2>
+        <p>Every chapter, cutoff, equation, and emergency sequence is anchored directly to the converted Harrison's 22nd Edition chapters and cited guidelines.</p>
+      </div>
+
+      <div class="ref-filter-bar">
+        <div class="ref-filter-pills">
+          <button type="button" class="ref-cat-btn active" data-cat="ALL">All 35</button>
+          <button type="button" class="ref-cat-btn" data-cat="Part 1: Profession">Part 1: Profession</button>
+          <button type="button" class="ref-cat-btn" data-cat="Part 2: Cardinal Signs">Part 2: Cardinal Signs</button>
+          <button type="button" class="ref-cat-btn" data-cat="Part 3: Pharmacology">Part 3: Pharm</button>
+          <button type="button" class="ref-cat-btn" data-cat="Guideline">Guidelines</button>
+        </div>
+        <input type="search" id="landing-ref-search" class="ref-search-input" aria-label="Search references" placeholder="Search chapter, author, Bayes, Winter, SAAG, ODS...">
+      </div>
+
+      <div id="landing-ref-grid" class="landing-ref-grid"></div>
+    </div>
+  </section>
+
+</div>
+
+<!-- ═══════════════════════════════════════════════════════════════════════════
+     2. COURSE PLAYER — CHAPTER-CENTRIC 6-TAB STUDY COCKPIT
+     ═══════════════════════════════════════════════════════════════════════════ -->
+<div id="course-player" class="course-player" style="display:none;">
+
+  <header class="top-nav">
+    <div class="nav-left">
+      <button type="button" class="icon-btn mobile-menu-btn" id="hamburger" aria-label="Toggle chapters and units sidebar">☰</button>
+      <div class="logo" id="back-to-landing-logo" role="button" tabindex="0" title="Return to Chapters Hub & Overview">
+        <div class="logo-icon vp-logo-icon"><span class="vp-mono">Vp</span></div>
+        <div>
+          <span class="logo-title">Medicine Basics</span>
+          <span class="logo-sub">Harrison's 22e · 30 Chapters</span>
+        </div>
+      </div>
+      <button type="button" class="nav-overview-pill" id="back-to-landing-btn">← All 30 Chapters Hub</button>
+    </div>
+
+    <div class="nav-center">
+      <div class="nav-prog-wrap" aria-label="Overall course progress">
+        <div class="nav-progress-bar"><div class="nav-progress-fill" style="width:0%"></div></div>
+        <span class="nav-progress-pct">0%</span>
+      </div>
+    </div>
+
+    <div class="nav-right">
+      <button type="button" class="nav-ref-btn" data-clinical="references-lib">📖 35 Refs</button>
+      <button type="button" class="icon-btn theme-toggle-btn" data-action="dark-mode" aria-label="Toggle Night Shift Dark Mode" title="Toggle Night Shift Dark Mode">
+        <span class="theme-opt-dark">🌙</span>
+        <span class="theme-opt-light">☀️</span>
+      </button>
+      <button type="button" class="icon-btn" data-action="settings" aria-label="Track & Exam Gate Settings" title="Track & Settings">⚙️</button>
+      <button type="button" class="icon-btn" data-action="certificate" aria-label="SHA-256 Verification Certificate" title="Certificate">🏆</button>
+    </div>
+  </header>
+
+  <div class="app-layout">
+    <div id="sidebar-backdrop" class="sidebar-backdrop"></div>
+
+    <!-- SIDEBAR WITH 10 UNITS <-> 30 CHAPTERS SWITCHER -->
+    <aside class="sidebar" id="sidebar" aria-label="Chapters, Units and Clinical Tools">
+      <div class="sb-profile">
+        <div class="sb-profile-avatar">🩺</div>
+        <div class="sb-profile-info">
+          <span class="sb-profile-name" id="sb-profile-name">Clinician Learner</span>
+          <span class="sb-profile-role" id="course-role-label">PG Track (All 3 Tiers)</span>
+        </div>
+        <button type="button" class="sb-profile-edit" data-action="settings" aria-label="Edit profile and track">✎</button>
+      </div>
+
+      <div class="sb-overall-prog">
+        <div class="sb-prog-row">
+          <span class="sb-prog-label" id="sb-read-stats">0/30 Chapters Read</span>
+          <span class="sb-prog-pct" id="sb-prog-pct">0%</span>
+        </div>
+        <div class="sb-prog-track"><div class="sb-prog-fill" id="sb-prog-fill" style="width:0%"></div></div>
+      </div>
+
+      <!-- Sidebar Mode Switcher: Browse 30 Individual Chapters OR 10 Units -->
+      <div class="sb-mode-switch">
+        <button type="button" class="sb-mode-btn active" data-sbmode="chapters">📖 30 Chapters</button>
+        <button type="button" class="sb-mode-btn" data-sbmode="units">📚 10 Units</button>
+      </div>
+
+      <div id="sb-chapters-pane" class="sb-section">
+        <input type="search" id="sb-chapter-search" class="sb-search-input" placeholder="Filter 30 chapters (e.g. Fever, Coma)..." aria-label="Filter chapters in sidebar">
+        <ul id="sidebar-chapters" class="sb-unit-list"></ul>
+      </div>
+
+      <div id="sb-units-pane" class="sb-section" style="display:none;">
+        <div class="sb-section-label">10 Foundational Medicine Units</div>
+        <ul id="sidebar-modules" class="sb-unit-list"></ul>
+      </div>
+
+      <div class="sb-section sb-tools-section">
+        <div class="sb-section-label">Quick Bedside Tools</div>
+        <button type="button" class="sb-tool-btn" data-clinical="visuals-atlas">
+          <span class="sb-tool-icon">📊</span>
+          <span class="sb-tool-text"><strong>All 177 Tables &amp; Figures</strong><small>Search every Harrison's visual</small></span>
+        </button>
+        <button type="button" class="sb-tool-btn" data-clinical="er-sim">
+          <span class="sb-tool-icon">🏥</span>
+          <span class="sb-tool-text"><strong>Virtual ER Simulator</strong><small>3 unfolding Harrison's cases</small></span>
+        </button>
+        <button type="button" class="sb-tool-btn" data-clinical="param-drill">
+          <span class="sb-tool-icon">🎲</span>
+          <span class="sb-tool-text"><strong>Parameterized Drill Lab</strong><small>Infinite fresh vignettes</small></span>
+        </button>
+        <button type="button" class="sb-tool-btn" data-clinical="sandboxes">
+          <span class="sb-tool-icon">🧪</span>
+          <span class="sb-tool-text"><strong>Bedside Calculators</strong><small>Bayes, A–a, ABG/ODS, PK/CrCl</small></span>
+        </button>
+        <button type="button" class="sb-tool-btn" data-clinical="algorithms">
+          <span class="sb-tool-icon">🗺️</span>
+          <span class="sb-tool-text"><strong>Decision Algorithms</strong><small>Chest Pain, Na⁺, ABG &amp; Coma</small></span>
+        </button>
+        <button type="button" class="sb-tool-btn" data-clinical="all-flashcards">
+          <span class="sb-tool-icon">🃏</span>
+          <span class="sb-tool-text"><strong>All 120 Flashcards Deck</strong><small>Full Harrison's 22e SM-2 review</small></span>
+        </button>
+        <button type="button" class="sb-tool-btn" data-clinical="vitals-ref">
+          <span class="sb-tool-icon">📈</span>
+          <span class="sb-tool-text"><strong>Vitals, qSOFA &amp; Panic Labs</strong><small>Adult critical thresholds</small></span>
+        </button>
+        <button type="button" class="sb-tool-btn" data-clinical="formulary">
+          <span class="sb-tool-icon">💊</span>
+          <span class="sb-tool-text"><strong>Emergency Drug Formulary</strong><small>Ca²⁺, 3% NaCl, Thiamine, NE</small></span>
+        </button>
+      </div>
+    </aside>
+
+    <!-- MAIN LEARNING COCKPIT -->
+    <main class="learning-area" id="main-learning-area">
+      <div class="breadcrumbs" id="breadcrumbs"></div>
+      <div id="unit-hero-area"></div>
+
+      <!-- INDIVIDUAL CHAPTER SELECTOR BAR FOR CURRENT UNIT -->
+      <div id="chapter-picker-bar" class="chapter-picker-bar" aria-label="Select individual Harrison's chapter"></div>
+
+      <!-- 7-TAB STUDY COCKPIT (Modern Web Guidance Compliant: single-row scrollable tablist + hidden="until-found") -->
+      <div class="study-tabs-wrapper" id="study-tabs">
+        <div class="study-tablist scroller" role="tablist" focusgroup="tablist nomemory" aria-label="Chapter study tools">
+          <button type="button" class="study-tab" id="tab-full-chapter" role="tab" aria-selected="true" focusgroupstart data-panel="panel-full-chapter">📖 Full Chapter</button>
+          <button type="button" class="study-tab" id="tab-visuals" role="tab" aria-selected="false" data-panel="panel-visuals">📊 Tables &amp; Figures</button>
+          <button type="button" class="study-tab" id="tab-notes" role="tab" aria-selected="false" data-panel="panel-notes">📘 Revision Notes</button>
+          <button type="button" class="study-tab" id="tab-mindmap" role="tab" aria-selected="false" data-panel="panel-mindmap">🧠 Mind Map</button>
+          <button type="button" class="study-tab" id="tab-flashcards" role="tab" aria-selected="false" data-panel="panel-flashcards">🃏 Flashcards</button>
+          <button type="button" class="study-tab" id="tab-quiz" role="tab" aria-selected="false" data-panel="panel-quiz">📝 Chapter Quiz</button>
+          <button type="button" class="study-tab" id="tab-labs" role="tab" aria-selected="false" data-panel="panel-labs">🧪 Lab &amp; Cases</button>
+        </div>
+
+        <div class="study-panels-grid">
+          <div id="panel-full-chapter" role="tabpanel" aria-labelledby="tab-full-chapter" tabindex="0">
+            <div class="tabpanel-inner" id="mount-full-chapter"></div>
+          </div>
+          <div id="panel-visuals" role="tabpanel" aria-labelledby="tab-visuals" hidden="until-found">
+            <div class="tabpanel-inner" id="mount-visuals"></div>
+          </div>
+          <div id="panel-notes" role="tabpanel" aria-labelledby="tab-notes" hidden="until-found">
+            <div class="tabpanel-inner">
+              <div id="tier-content"></div>
+              <div id="unit-evidence-area"></div>
+            </div>
+          </div>
+          <div id="panel-mindmap" role="tabpanel" aria-labelledby="tab-mindmap" hidden="until-found">
+            <div class="tabpanel-inner" id="mount-mindmap"></div>
+          </div>
+          <div id="panel-flashcards" role="tabpanel" aria-labelledby="tab-flashcards" hidden="until-found">
+            <div class="tabpanel-inner" id="mount-flashcards"></div>
+          </div>
+          <div id="panel-quiz" role="tabpanel" aria-labelledby="tab-quiz" hidden="until-found">
+            <div class="tabpanel-inner" id="unit-quiz-section"></div>
+          </div>
+          <div id="panel-labs" role="tabpanel" aria-labelledby="tab-labs" hidden="until-found">
+            <div class="tabpanel-inner">
+              <div id="unit-sandbox-area"></div>
+              <div id="unit-puzzle-area"></div>
+              <div id="unit-lab-shortcuts"></div>
+              <div id="unit-sim-area"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="unit-footer-nav">
+        <button type="button" id="btn-prev-unit" class="btn-secondary-nav">← Previous Unit</button>
+        <button type="button" id="btn-complete" class="btn-complete">Next Unit →</button>
+      </div>
+    </main>
+  </div>
+
+  <!-- PERSISTENT MOBILE THUMB-ZONE BAR -->
+  <nav class="mobile-bar" aria-label="Quick study switcher">
+    <button type="button" class="mob-btn active" data-action="units"><span>📖 Chapters</span></button>
+    <button type="button" class="mob-btn" data-quick-tab="panel-full-chapter"><span>📄 Read</span></button>
+    <button type="button" class="mob-btn" data-quick-tab="panel-mindmap"><span>🧠 Map</span></button>
+    <button type="button" class="mob-btn" data-quick-tab="panel-flashcards"><span>🃏 Cards</span></button>
+    <button type="button" class="mob-btn" data-quick-tab="panel-quiz"><span>📝 Quiz</span></button>
+  </nav>
+
+</div>
+
+<!-- NATIVE <dialog> BOTTOM-SHEET MODAL -->
+<dialog id="clinical-dialog" class="clinical-dialog" closedby="any" aria-labelledby="clinical-dialog-title">
+  <div class="bottom-sheet-handle" aria-hidden="true"></div>
+  <div class="dialog-header">
+    <h2 id="clinical-dialog-title">Clinical Reference</h2>
+    <form method="dialog">
+      <button type="submit" class="dialog-close-btn" aria-label="Close modal">✕</button>
+    </form>
+  </div>
+  <div id="clinical-dialog-body" class="dialog-body"></div>
+</dialog>
+
+<!-- NATIVE <dialog> LEARNER PROFILE & TRACK CUSTOMIZER -->
+<dialog id="login-dialog" class="clinical-dialog compact-dialog" closedby="any" aria-labelledby="login-dialog-title">
+  <div class="bottom-sheet-handle" aria-hidden="true"></div>
+  <div class="dialog-header">
+    <h2 id="login-dialog-title">Learner Profile &amp; Study Settings</h2>
+    <form method="dialog">
+      <button type="submit" class="dialog-close-btn" aria-label="Close modal">✕</button>
+    </form>
+  </div>
+  <div class="dialog-body">
+    <p class="dialog-lead">Personalize your SHA-256 certificate, competency depth, and open-revision vs strict 90% exam mode.</p>
+
+    <label for="login-name" class="form-label">Full Name &amp; Credentials</label>
+    <input type="text" id="login-name" class="login-input" placeholder="e.g., Dr. Vikram Kumar, MD" autofocus>
+
+    <label for="login-role" class="form-label">Competency Track</label>
+    <select id="login-role" class="login-input">
+      <option value="PG" selected>L3 · PG / Resident / Fellow (All 3 Tiers: L1 + L2 + L3)</option>
+      <option value="UG">L2 · Undergraduate / MBBS Clerkship (Tiers L1 + L2)</option>
+      <option value="Nurse">L1 · Nursing &amp; Rural Triage Express (Tier L1 Focus)</option>
+    </select>
+
+    <label class="toggle-check-row">
+      <input type="checkbox" id="gating-toggle">
+      <span>Strict Exam Mode: Lock next unit until scoring ≥90% on quiz (leave unchecked for free revision of all 30 chapters)</span>
+    </label>
+
+    <div class="dialog-footer-actions">
+      <form method="dialog">
+        <button type="submit" class="btn-secondary-nav">Cancel</button>
+      </form>
+      <button type="button" id="login-submit" class="btn-primary-action">Save &amp; Continue →</button>
+    </div>
+  </div>
+</dialog>
+
+<div id="toast-container" class="toast-container" aria-live="polite"></div>
+<script type="module" src="app.js"></script>
+</body>
+</html>

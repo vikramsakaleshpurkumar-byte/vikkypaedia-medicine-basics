@@ -1,0 +1,66 @@
+[
+  {
+    "name": "Calcium Gluconate 10% (IV)",
+    "category": "Electrolyte Emergency",
+    "indication": "Severe hyperkalemia with ECG changes (peaked T, widened QRS, bradyarrhythmia)",
+    "dose": "10 mL of 10% solution (1 g) IV over 2–3 minutes with continuous ECG monitoring; repeat in 5–10 min if ECG changes persist",
+    "mechanism": "Directly antagonizes cardiac membrane excitability (raises threshold potential) within 1–3 min without lowering serum K+",
+    "safetyAlert": "Does NOT lower serum K+; follow immediately with Insulin + Dextrose and K+ elimination therapy [Harrison's 22e Ch. 56]."
+  },
+  {
+    "name": "Regular Insulin + Dextrose 50% (IV)",
+    "category": "Electrolyte Emergency",
+    "indication": "Rapid intracellular potassium shift in severe hyperkalemia",
+    "dose": "5–10 units IV Regular Insulin + 25–50 g IV Dextrose (omit dextrose if blood glucose >250 mg/dL)",
+    "mechanism": "Activates Na+/K+-ATPase pump, lowering serum K+ by 0.5–1.2 mEq/L within 15–30 minutes",
+    "safetyAlert": "Monitor capillary glucose hourly for 4–6 hours; high risk of delayed hypoglycemia in CKD/ESRD patients [Ch. 56]."
+  },
+  {
+    "name": "Hypertonic Saline 3% NaCl (IV)",
+    "category": "Electrolyte Emergency",
+    "indication": "Severely symptomatic hyponatremia (seizures, obtundation, coma, herniation risk)",
+    "dose": "100 mL IV bolus over 10 minutes (may repeat x2 if severe CNS symptoms persist) to raise Na+ rapidly by 4–6 mEq/L",
+    "mechanism": "Rapidly reverses cerebral edema by creating osmotic gradient out of brain parenchyma",
+    "safetyAlert": "NEVER exceed 8–10 mEq/L correction in 24h (4–6 mEq/L max in chronic malnutrition/alcoholism/cirrhosis) to prevent Osmotic Demyelination Syndrome [Ch. 56]."
+  },
+  {
+    "name": "Thiamine (Vitamin B1) IV",
+    "category": "Coma / Neurologic Emergency",
+    "indication": "Any patient with coma, delirium, alcoholism, or malnutrition receiving IV dextrose",
+    "dose": "100 mg IV (or 500 mg IV TID if Wernicke encephalopathy suspected) BEFORE or concurrently with 50% Dextrose",
+    "mechanism": "Essential cofactor for pyruvate dehydrogenase and transketolase; prevents acute precipitation of Wernicke encephalopathy",
+    "safetyAlert": "Never delay life-saving glucose in confirmed hypoglycemia, but give Thiamine simultaneously/before glucose whenever feasible [Ch. 30]."
+  },
+  {
+    "name": "Naloxone (IV / IM / Intranasal)",
+    "category": "Coma / Toxicology",
+    "indication": "Suspected opioid overdose (miosis, respiratory depression RR <12, coma)",
+    "dose": "0.04–0.4 mg IV titrated every 2–3 min to restore adequate spontaneous ventilation (up to 2–4 mg for synthetic opioids)",
+    "mechanism": "Competitive mu-opioid receptor antagonist",
+    "safetyAlert": "Shorter half-life (30–90 min) than methadone or long-acting opioids — monitor closely for recurrent respiratory depression [Ch. 30]."
+  },
+  {
+    "name": "Norepinephrine (IV Infusion)",
+    "category": "Shock / Critical Care",
+    "indication": "First-line vasopressor in septic shock and vasodilatory shock unresponsive to crystalloids",
+    "dose": "Start 0.05–0.1 mcg/kg/min IV infusion, titrate to maintain Mean Arterial Pressure (MAP) >= 65 mmHg",
+    "mechanism": "Potent alpha-1 vasoconstrictor with modest beta-1 inotropic support",
+    "safetyAlert": "Peripheral IV administration is acceptable temporarily while securing central access to avoid delaying MAP restoration [SSC 2021]."
+  },
+  {
+    "name": "Ceftriaxone (IV) + Dexamethasone (IV)",
+    "category": "Infectious Emergency",
+    "indication": "Empirical bacterial meningitis / meningococcal fever with petechial rash / Spontaneous Bacterial Peritonitis (SBP)",
+    "dose": "Meningitis: Ceftriaxone 2 g IV q12h (+ Vancomycin + Dexamethasone 10 mg IV before/with 1st antibiotic); SBP: Ceftriaxone 1–2 g IV q24h",
+    "mechanism": "Broad-spectrum 3rd-generation cephalosporin with excellent CSF and ascitic fluid penetration",
+    "safetyAlert": "NEVER delay first IV antibiotic dose for LP or CT scan in febrile petechial shock or suspected meningitis [Ch. 21, 53]."
+  },
+  {
+    "name": "Pantoprazole (IV) + Octreotide (IV)",
+    "category": "GI Bleeding Emergency",
+    "indication": "Acute Upper GI Bleeding (PPI for ulcer bleeding; add Octreotide + Ceftriaxone immediately if cirrhosis/varices suspected)",
+    "dose": "Pantoprazole 80 mg IV bolus then 40 mg IV q12h (or 8 mg/h); Octreotide 50 mcg IV bolus then 50 mcg/h infusion",
+    "mechanism": "Elevates gastric pH >6 to stabilize clot; Octreotide reduces splanchnic portal venous pressure",
+    "safetyAlert": "Pair with restrictive transfusion threshold (Hb <7 g/dL) and upper endoscopy within 24 hours [Ch. 51]."
+  }
+]

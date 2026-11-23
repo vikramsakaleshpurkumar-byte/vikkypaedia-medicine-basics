@@ -1,0 +1,25 @@
+{
+  "adultNormalVitals": [
+    { "parameter": "Heart Rate (HR)", "normal": "60–100 bpm", "warning": "<50 or 101–129 bpm", "critical": "<40 or >=130 bpm (Shock / Arrhythmia)" },
+    { "parameter": "Systolic BP (SBP)", "normal": "90–129 mmHg", "warning": "90–100 or >=160 mmHg", "critical": "<90 mmHg or MAP <65 mmHg (Shock)" },
+    { "parameter": "Respiratory Rate (RR)", "normal": "12–20 /min", "warning": "21–24 /min (qSOFA >=22)", "critical": "<8 or >=25 /min (Impending failure)" },
+    { "parameter": "Oxygen Saturation (SpO2)", "normal": "95–100% (COPD: 88–92%)", "warning": "92–94%", "critical": "<90% (Severe hypoxemia; PaO2 ~60)" },
+    { "parameter": "Core / Oral Temperature", "normal": "35.7–37.3°C (Mean 36.6°C)", "warning": ">37.7°C (Fever, Harrison 22e Ch.20)", "critical": "<35.0°C (Hypothermia) or >41.5°C (Hyperpyrexia)" },
+    { "parameter": "Consciousness (GCS)", "normal": "15 (Alert & Oriented)", "warning": "13–14 (Delirium / Lethargy)", "critical": "<=8 (Coma — Secure Airway!)" }
+  ],
+  "criticalLabs": [
+    { "lab": "Serum Sodium (Na+)", "normal": "135–145 mEq/L", "panic": "<120 (Seizure/herniation) or >160 mEq/L", "pearl": "Limit chronic Na+ correction to <=8-10 mEq/L in 24h (4-6 mEq/L in high ODS risk) [Ch. 56]" },
+    { "lab": "Serum Potassium (K+)", "normal": "3.5–5.0 mEq/L", "panic": "<2.5 or >6.5 mEq/L (or ANY ECG changes)", "pearl": "Peaked T -> PR prolongation -> widened QRS -> sine wave. Give IV Calcium FIRST! [Ch. 56]" },
+    { "lab": "Arterial pH / PaCO2 / HCO3-", "normal": "pH 7.35–7.45 | PaCO2 35–45 | HCO3 22–26", "panic": "pH <7.20 or >7.60", "pearl": "Winter's equation: Expected PaCO2 = (1.5 x HCO3) + 8 +/- 2 [Ch. 58]" },
+    { "lab": "Anion Gap (AG)", "normal": "8–12 mEq/L (uncorrected)", "panic": ">20 mEq/L (Primary HAGMA)", "pearl": "Add +2.5 mEq/L to AG for every 1 g/dL drop in serum albumin below 4.0 g/dL [Ch. 58]" },
+    { "lab": "Serum Lactate", "normal": "<2.0 mmol/L", "panic": ">=4.0 mmol/L (Tissue hypoperfusion)", "pearl": "Elevated lactate + hypotension despite fluids = Septic Shock [SSC 2021]" },
+    { "lab": "Hemoglobin (Hb)", "normal": "M: 13.5–17.5 | F: 12.0–15.5 g/dL", "panic": "<7.0 g/dL (Transfusion trigger)", "pearl": "Restrictive transfusion at Hb <7 g/dL in acute UGIB improves survival [Ch. 51]" },
+    { "lab": "Ascitic Fluid SAAG & PMN", "normal": "No ascites", "panic": "PMN >=250 cells/uL = SBP Emergency", "pearl": "SAAG >=1.1 g/dL = Portal hypertension; <1.1 g/dL = Peritoneal/malignancy/TB [Ch. 53]" }
+  ],
+  "qsofaCriteria": [
+    "Respiratory Rate >= 22 breaths/min (+1)",
+    "Altered Mentation / GCS < 15 (+1)",
+    "Systolic Blood Pressure <= 100 mmHg (+1)",
+    "Score >= 2: High risk for poor outcome in suspected infection — evaluate SOFA & sepsis bundle immediately!"
+  ]
+}

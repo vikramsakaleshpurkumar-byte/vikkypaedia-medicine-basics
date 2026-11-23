@@ -1,0 +1,1597 @@
+{
+  "visuals": [
+    {
+      "id": "figure_1_1",
+      "chapterNum": 1,
+      "code": "FIGURE 1-1",
+      "kind": "Figure",
+      "caption": "The Doctor by Luke Fildes depicts the caring relationship between this Victorian physician and a very ill child. Painted in 1891, the painting reflects the death of the painter’s young son from typhoid fever and was intended to reflect the compassionate care provided by the physician even when his tools were not able to influence the course of disease. (Source: History and Art Collection/Alamy Stock Photo.)",
+      "page": 44,
+      "src": "assets/visuals/ch01_figure_1_1.webp"
+    },
+    {
+      "id": "figure_2_1",
+      "chapterNum": 2,
+      "code": "FIGURE 2-1",
+      "kind": "Figure",
+      "caption": "Loss of health with aging. Representation of normative aging with loss of the full stock of health with which individuals are born (indicating gain of morbidity), contrasted with a squared curve with greater longevity and fuller stock of health (less morbidity) until shortly before death. The “squared curve” represents the likely ideal situation for most patients.",
+      "page": 51,
+      "src": "assets/visuals/ch02_figure_2_1.webp"
+    },
+    {
+      "id": "table_2_1",
+      "chapterNum": 2,
+      "code": "TABLE 2-1",
+      "kind": "Table",
+      "caption": "Guidelines and Key Recommendations from the Dietary Guidelines for Americans, 2020–2025",
+      "page": 53,
+      "src": "assets/visuals/ch02_table_2_1.webp"
+    },
+    {
+      "id": "table_2_2",
+      "chapterNum": 2,
+      "code": "TABLE 2-2",
+      "kind": "Table",
+      "caption": "Recommendations from Physical Activity Guidelines for Americans, 2nd Edition (2018)",
+      "page": 55,
+      "src": "assets/visuals/ch02_table_2_2.webp"
+    },
+    {
+      "id": "table_4_1",
+      "chapterNum": 4,
+      "code": "TABLE 4-1",
+      "kind": "Table",
+      "caption": "Measures of Diagnostic Test Accuracy",
+      "page": 67,
+      "src": "assets/visuals/ch04_table_4_1.webp"
+    },
+    {
+      "id": "figure_4_1",
+      "chapterNum": 4,
+      "code": "FIGURE 4-1",
+      "kind": "Figure",
+      "caption": "Each receiver operating characteristic (ROC) curve illustrates a trade- off that occurs between improved test sensitivity (accurate detection of patients with disease) and improved test specificity (accurate detection of patients without disease), as the test value defining when the test turns from “negative” to “positive” is varied. A 45° line would indicate a test with no predictive value (sensitivity = specificity at every test value). The area under each ROC curve is a measure of the information content of the test. Thus, a larger ROC area signifies increased diagnostic accuracy.",
+      "page": 67,
+      "src": "assets/visuals/ch04_figure_4_1.webp"
+    },
+    {
+      "id": "figure_4_2",
+      "chapterNum": 4,
+      "code": "FIGURE 4-2",
+      "kind": "Figure",
+      "caption": "Nomogram version of Bayes’ theorem used to predict the posttest probability of disease (right-hand scale) using the pretest probability of disease (left-hand scale) and the likelihood ratio for a positive or a negative test (middle scale). See text for information on calculation of likelihood ratios. To use, place a straightedge connecting the pretest probability and the likelihood ratio and read off the posttest probability. The right-hand part of the figure illustrates the value of a positive exercise treadmill test (likelihood ratio 4, green line) and a positive exercise thallium single-photon emission CT perfusion study (likelihood ratio 9, broken brown line) in a patient with a pretest probability of coronary artery disease of 50%. (Adapted from Centre for Evidence-Based Medicine: Likelihood ratios. Available at http://www.cebm.net/ likelihood-ratios/.)",
+      "page": 68,
+      "src": "assets/visuals/ch04_figure_4_2.webp"
+    },
+    {
+      "id": "table_4_2",
+      "chapterNum": 4,
+      "code": "TABLE 4-2",
+      "kind": "Table",
+      "caption": "Wells Clinical Prediction Rule for Pulmonary Embolism (PE)",
+      "page": 69,
+      "src": "assets/visuals/ch04_table_4_2.webp"
+    },
+    {
+      "id": "table_6_1",
+      "chapterNum": 6,
+      "code": "TABLE 6-1",
+      "kind": "Table",
+      "caption": "Principles of Screening",
+      "page": 80,
+      "src": "assets/visuals/ch06_table_6_1.webp"
+    },
+    {
+      "id": "table_6_2",
+      "chapterNum": 6,
+      "code": "TABLE 6-2",
+      "kind": "Table",
+      "caption": "Lifetime Cumulative Risk",
+      "page": 80,
+      "src": "assets/visuals/ch06_table_6_2.webp"
+    },
+    {
+      "id": "table_6_3",
+      "chapterNum": 6,
+      "code": "TABLE 6-3",
+      "kind": "Table",
+      "caption": "Estimated Average Increase in Life Expectancy for a Population",
+      "page": 81,
+      "src": "assets/visuals/ch06_table_6_3.webp"
+    },
+    {
+      "id": "table_6_4",
+      "chapterNum": 6,
+      "code": "TABLE 6-4",
+      "kind": "Table",
+      "caption": "Screening Tests Recommended by the U.S. Preventive Services Task Force for Average-Risk Adults",
+      "page": 82,
+      "src": "assets/visuals/ch06_table_6_4.webp"
+    },
+    {
+      "id": "table_6_5",
+      "chapterNum": 6,
+      "code": "TABLE 6-5",
+      "kind": "Table",
+      "caption": "Preventive Interventions Recommended for Average-Risk Adults",
+      "page": 83,
+      "src": "assets/visuals/ch06_table_6_5.webp"
+    },
+    {
+      "id": "table_6_6",
+      "chapterNum": 6,
+      "code": "TABLE 6-6",
+      "kind": "Table",
+      "caption": "Preventive Counseling Recommended by the U.S. Preventive Services Task Force (USPSTF)",
+      "page": 83,
+      "src": "assets/visuals/ch06_table_6_6.webp"
+    },
+    {
+      "id": "table_6_7",
+      "chapterNum": 6,
+      "code": "TABLE 6-7",
+      "kind": "Table",
+      "caption": "Age-Specific Causes of Mortality and Corresponding Preventive Options",
+      "page": 84,
+      "src": "assets/visuals/ch06_table_6_7.webp"
+    },
+    {
+      "id": "figure_7_1",
+      "chapterNum": 7,
+      "code": "FIGURE 7-1",
+      "kind": "Figure",
+      "caption": "“Swiss cheese” diagram. Reason argues that most accidents occur when a series of “latent failures” are present in a system and happen to line up in a given instance, resulting in an accident. Examples of latent failures in the case of a fall might be that the unit is unusually busy and the floor happens to be wet. (Adapted from J Reason: BMJ 320:768, 2000.)",
+      "page": 85,
+      "src": "assets/visuals/ch07_figure_7_1.webp"
+    },
+    {
+      "id": "figure_7_2",
+      "chapterNum": 7,
+      "code": "FIGURE 7-2",
+      "kind": "Figure",
+      "caption": "Plan-Do-Check-Act cycle. This approach can be used to improve a specific process rapidly. First, planning is undertaken, and several potential improvement strategies are identified. Next, these strategies are evaluated in small “tests of change.” “Checking” entails measuring whether the strategies have appeared to make a difference, and “acting” refers to acting on the results.",
+      "page": 87,
+      "src": "assets/visuals/ch07_figure_7_2.webp"
+    },
+    {
+      "id": "figure_7_3",
+      "chapterNum": 7,
+      "code": "FIGURE 7-3",
+      "kind": "Figure",
+      "caption": "The Chronic Care Model, which focuses on improving care for chronic diseases, suggests that (1) delivery of high-quality care requires a range of strategies that must closely involve and engage the patient and (2) team care is essential. (From EH Wagner et al: Eff Clin Pract 1:2, 1998.)",
+      "page": 87,
+      "src": "assets/visuals/ch07_figure_7_3.webp"
+    },
+    {
+      "id": "table_8_1",
+      "chapterNum": 8,
+      "code": "TABLE 8-1",
+      "kind": "Table",
+      "caption": "Selected Examples of Conditions in Which the Physical Exam Is the Diagnostic Standard or the Primary Method of Diagnosis",
+      "page": 90,
+      "src": "assets/visuals/ch08_table_8_1.webp"
+    },
+    {
+      "id": "table_8_3",
+      "chapterNum": 8,
+      "code": "TABLE 8-3",
+      "kind": "Table",
+      "caption": "Physical Signs and Their Likelihood Ratios",
+      "page": 91,
+      "src": "assets/visuals/ch08_table_8_3.webp"
+    },
+    {
+      "id": "table_8_2",
+      "chapterNum": 8,
+      "code": "TABLE 8-2",
+      "kind": "Table",
+      "caption": "Pretest Probability of Selected Conditionsa",
+      "page": 91,
+      "src": "assets/visuals/ch08_table_8_2.webp"
+    },
+    {
+      "id": "figure_8_1",
+      "chapterNum": 8,
+      "code": "FIGURE 8-1",
+      "kind": "Figure",
+      "caption": "With just a glance, the clinician can immediately identify those few findings that significantly increase probability of heart failure (right side of ruler, likelihood ratio [LR] = 3 or more) and those that significantly decrease it (left side of ruler, LR = 0.3 or less). For example, the figure shows that the presence of S3 gallop (LR = 3.9) and presence of displaced apical impulse (LR = 5.8) significantly increase probability of heart failure. On the other hand, the absence of either finding does not appear on the ruler because these LRs lie between 0.3 and 3.0 (Table 8-3) and therefore are diagnostically unhelpful. (Reproduced with permission from SR McGee: Evidence-Based Physical Diagnosis, 4th ed. Philadelphia, Elsevier; 2022.)",
+      "page": 92,
+      "src": "assets/visuals/ch08_figure_8_1.webp"
+    },
+    {
+      "id": "table_8_4",
+      "chapterNum": 8,
+      "code": "TABLE 8-4",
+      "kind": "Table",
+      "caption": "Bedside Rules That Decrease Probability of Serious Conditions (“Stop Rules”)",
+      "page": 92,
+      "src": "assets/visuals/ch08_table_8_4.webp"
+    },
+    {
+      "id": "table_8_5",
+      "chapterNum": 8,
+      "code": "TABLE 8-5",
+      "kind": "Table",
+      "caption": "Important Clues to Disorders That May Not Be Related to the Patient’s Presenting Symptoms",
+      "page": 93,
+      "src": "assets/visuals/ch08_table_8_5.webp"
+    },
+    {
+      "id": "figure_10_1",
+      "chapterNum": 10,
+      "code": "FIGURE 10-1",
+      "kind": "Figure",
+      "caption": "What is a diagnosis error? (Adapted from GD Schiff et al: Diagnosing diagnosis errors: Lessons from a multi-institutional collaborative project, in Advances in Patient Safety: from Research to Implementation. Vol. 2 Concepts and Methodology, Rockville, MD, 2005, pp. 255-278, and GD Schiff, L Leape: Acad Med 87:135, 2012.)",
+      "page": 99,
+      "src": "assets/visuals/ch10_figure_10_1.webp"
+    },
+    {
+      "id": "table_10_1",
+      "chapterNum": 10,
+      "code": "TABLE 10-1",
+      "kind": "Table",
+      "caption": "National Academy of Medicine Recommendations for Improving Diagnosis in Health Care",
+      "page": 99,
+      "src": "assets/visuals/ch10_table_10_1.webp"
+    },
+    {
+      "id": "table_10_2",
+      "chapterNum": 10,
+      "code": "TABLE 10-2",
+      "kind": "Table",
+      "caption": "Selected Cognitive Biases Contributing to Diagnostic Errors",
+      "page": 100,
+      "src": "assets/visuals/ch10_table_10_2.webp"
+    },
+    {
+      "id": "table_10_3",
+      "chapterNum": 10,
+      "code": "TABLE 10-3",
+      "kind": "Table",
+      "caption": "New Models for Conceptualizing Diagnosis and Diagnosis Improvement",
+      "page": 100,
+      "src": "assets/visuals/ch10_table_10_3.webp"
+    },
+    {
+      "id": "table_10_3_p101",
+      "chapterNum": 10,
+      "code": "TABLE 10-3",
+      "kind": "Table",
+      "caption": "New Models for Conceptualizing Diagnosis and Diagnosis Improvement",
+      "page": 101,
+      "src": "assets/visuals/ch10_table_10_3_p101.webp"
+    },
+    {
+      "id": "table_10_4",
+      "chapterNum": 10,
+      "code": "TABLE 10-4",
+      "kind": "Table",
+      "caption": "Examples of “Don’t Miss” Diagnoses",
+      "page": 102,
+      "src": "assets/visuals/ch10_table_10_4.webp"
+    },
+    {
+      "id": "table_10_5",
+      "chapterNum": 10,
+      "code": "TABLE 10-5",
+      "kind": "Table",
+      "caption": "Generic Types of Diagnostic Pitfalls",
+      "page": 102,
+      "src": "assets/visuals/ch10_table_10_5.webp"
+    },
+    {
+      "id": "table_10_6",
+      "chapterNum": 10,
+      "code": "TABLE 10-6",
+      "kind": "Table",
+      "caption": "Areas Where Health Information Technology Has Potential to Help Improve Diagnosis and Reduce Errors",
+      "page": 103,
+      "src": "assets/visuals/ch10_table_10_6.webp"
+    },
+    {
+      "id": "table_13_1",
+      "chapterNum": 13,
+      "code": "TABLE 13-1",
+      "kind": "Table",
+      "caption": "Ten Leading Causes of Death in the United States and Britain",
+      "page": 118,
+      "src": "assets/visuals/ch13_table_13_1.webp"
+    },
+    {
+      "id": "figure_13_1",
+      "chapterNum": 13,
+      "code": "FIGURE 13-1",
+      "kind": "Figure",
+      "caption": "Graph showing trends in cancer decedents’ site of death 1999–2019. (Source: Centers for Disease Control and Prevention, National Center for Health Statistics. Underlying Cause of Death 1999-2019 on CDC WONDER Online Database. http://wonder.cdc.gov.)",
+      "page": 118,
+      "src": "assets/visuals/ch13_figure_13_1.webp"
+    },
+    {
+      "id": "table_13_2",
+      "chapterNum": 13,
+      "code": "TABLE 13-2",
+      "kind": "Table",
+      "caption": "Elements of Communicating Bad News—The P-SPIKES Approach",
+      "page": 120,
+      "src": "assets/visuals/ch13_table_13_2.webp"
+    },
+    {
+      "id": "table_13_3",
+      "chapterNum": 13,
+      "code": "TABLE 13-3",
+      "kind": "Table",
+      "caption": "Steps in Advance Care Planning",
+      "page": 121,
+      "src": "assets/visuals/ch13_table_13_3.webp"
+    },
+    {
+      "id": "table_13_4",
+      "chapterNum": 13,
+      "code": "TABLE 13-4",
+      "kind": "Table",
+      "caption": "Common Physical and Psychological Symptoms of Terminally Ill Patients",
+      "page": 122,
+      "src": "assets/visuals/ch13_table_13_4.webp"
+    },
+    {
+      "id": "figure_13_2",
+      "chapterNum": 13,
+      "code": "FIGURE 13-2",
+      "kind": "Figure",
+      "caption": "Terminal pain management flow chart. NSAIDs, nonsteroidal anti-inflammatory drugs.",
+      "page": 123,
+      "src": "assets/visuals/ch13_figure_13_2.webp"
+    },
+    {
+      "id": "table_13_5",
+      "chapterNum": 13,
+      "code": "TABLE 13-5",
+      "kind": "Table",
+      "caption": "Medications for the Management of Constipation",
+      "page": 125,
+      "src": "assets/visuals/ch13_table_13_5.webp"
+    },
+    {
+      "id": "table_13_6",
+      "chapterNum": 13,
+      "code": "TABLE 13-6",
+      "kind": "Table",
+      "caption": "Medications for the Management of Dyspnea",
+      "page": 126,
+      "src": "assets/visuals/ch13_table_13_6.webp"
+    },
+    {
+      "id": "table_13_7",
+      "chapterNum": 13,
+      "code": "TABLE 13-7",
+      "kind": "Table",
+      "caption": "Medications for the Management of Delirium",
+      "page": 129,
+      "src": "assets/visuals/ch13_table_13_7.webp"
+    },
+    {
+      "id": "table_13_8",
+      "chapterNum": 13,
+      "code": "TABLE 13-8",
+      "kind": "Table",
+      "caption": "Definitions of Physician-Assisted Suicide and Euthanasia",
+      "page": 132,
+      "src": "assets/visuals/ch13_table_13_8.webp"
+    },
+    {
+      "id": "table_13_9",
+      "chapterNum": 13,
+      "code": "TABLE 13-9",
+      "kind": "Table",
+      "caption": "Managing Changes in the Patient’s Condition during the Final Days and Hours",
+      "page": 134,
+      "src": "assets/visuals/ch13_table_13_9.webp"
+    },
+    {
+      "id": "figure_14_1",
+      "chapterNum": 14,
+      "code": "FIGURE 14-1",
+      "kind": "Figure",
+      "caption": "Components of a typical cutaneous nerve. There are two distinct functional categories of axons: primary afferents with cell bodies in the dorsal root ganglion and sympathetic postganglionic fibers with cell bodies in the sympathetic ganglion. Primary afferents include those with large-diameter myelinated (Aβ), small-diameter myelinated (Aδ), and unmyelinated (C) axons. All sympathetic postganglionic fibers are unmyelinated.",
+      "page": 136,
+      "src": "assets/visuals/ch14_figure_14_1.webp"
+    },
+    {
+      "id": "figure_14_2",
+      "chapterNum": 14,
+      "code": "FIGURE 14-2",
+      "kind": "Figure",
+      "caption": "Events leading to activation, sensitization, and spread of sensitization of primary afferent nociceptor terminals. A. Direct activation by intense pressure and consequent cell damage. Cell damage induces lower pH (H+) and leads to release of potassium (K+) and to synthesis of prostaglandins (PGs) and bradykinin (BK). PGs increase the sensitivity of the terminal to BK and other pain-producing substances. B. Secondary activation. Impulses generated in the stimulated terminal propagate not only to the spinal cord but also into other terminal branches where they induce the release of peptides, including substance P (SP). Substance P causes vasodilation and neurogenic edema with further accumulation of BK. Substance P also causes the release of histamine (H) from mast cells and serotonin (5HT) from platelets.",
+      "page": 137,
+      "src": "assets/visuals/ch14_figure_14_2.webp"
+    },
+    {
+      "id": "figure_14_3",
+      "chapterNum": 14,
+      "code": "FIGURE 14-3",
+      "kind": "Figure",
+      "caption": "The convergence-projection hypothesis of referred pain. According to this hypothesis, visceral afferent nociceptors converge on the same pain- projection neurons as the afferents from the somatic structures in which the pain is perceived. The brain has no way of knowing the actual source of input and mistakenly “projects” the sensation to the somatic structure.",
+      "page": 138,
+      "src": "assets/visuals/ch14_figure_14_3.webp"
+    },
+    {
+      "id": "figure_14_5",
+      "chapterNum": 14,
+      "code": "FIGURE 14-5",
+      "kind": "Figure",
+      "caption": "Functional magnetic resonance imaging (fMRI) demonstrates placebo-enhanced brain activity in anatomic regions correlating with the opioidergic descending pain control system. Top panel: Frontal fMRI image shows placebo-enhanced brain activity in the dorsal lateral prefrontal cortex (DLPFC). Bottom panel: Sagittal fMRI images show placebo-enhanced responses in the rostral anterior cingulate cortex (rACC), the rostral ventral medullae (RVM), the periaqueductal gray (PAG) area, and the hypothalamus. The placebo-enhanced activity in all areas was reduced by naloxone, demonstrating the link between the descending opioidergic system and the placebo analgesic response. (Reproduced with permission from F Eippert et al: Activation of the opioidergic descending pain control system underlies placebo analgesia. Neuron 63:533, 2009.)",
+      "page": 138,
+      "src": "assets/visuals/ch14_figure_14_5.webp"
+    },
+    {
+      "id": "figure_14_4",
+      "chapterNum": 14,
+      "code": "FIGURE 14-4",
+      "kind": "Algorithm / Flowchart",
+      "caption": "Pain-transmission and modulatory pathways. A. Transmission system for nociceptive messages. Noxious stimuli activate the sensitive peripheral ending of the primary afferent nociceptor by the process of transduction. The message is then transmitted over the peripheral nerve to the spinal cord, where it synapses with cells of origin of the major ascending pain pathway, the spinothalamic tract. The message is relayed in the thalamus to the anterior cingulate (C), frontal insular (F), and somatosensory cortex (SS). B. Pain-modulation network. Inputs from frontal cortex and hypothalamus activate cells in the midbrain that control spinal pain- transmission cells via cells in the medulla.",
+      "page": 138,
+      "src": "assets/visuals/ch14_figure_14_4.webp"
+    },
+    {
+      "id": "table_14_1",
+      "chapterNum": 14,
+      "code": "TABLE 14-1",
+      "kind": "Table",
+      "caption": "Drugs for Relief of Pain",
+      "page": 140,
+      "src": "assets/visuals/ch14_table_14_1.webp"
+    },
+    {
+      "id": "table_14_2",
+      "chapterNum": 14,
+      "code": "TABLE 14-2",
+      "kind": "Table",
+      "caption": "Painful Conditions That Respond to Tricyclic Antidepressants",
+      "page": 143,
+      "src": "assets/visuals/ch14_table_14_2.webp"
+    },
+    {
+      "id": "table_14_3",
+      "chapterNum": 14,
+      "code": "TABLE 14-3",
+      "kind": "Table",
+      "caption": "Guidelines for Selecting and Monitoring Patients Receiving Chronic Opioid Therapy (COT) for the Treatment of Chronic, Noncancer Pain",
+      "page": 144,
+      "src": "assets/visuals/ch14_table_14_3.webp"
+    },
+    {
+      "id": "table_14_4",
+      "chapterNum": 14,
+      "code": "TABLE 14-4",
+      "kind": "Table",
+      "caption": "Centers for Disease Control and Prevention Checklist for Prescribing Opioids for Chronic Pain",
+      "page": 144,
+      "src": "assets/visuals/ch14_table_14_4.webp"
+    },
+    {
+      "id": "figure_15_1",
+      "chapterNum": 15,
+      "code": "FIGURE 15-1",
+      "kind": "Figure",
+      "caption": "Distribution of final discharge diagnoses in patients with nontraumatic acute chest pain. (Figure prepared from data in P Fruergaard et al: Eur Heart J 17:1028, 1996.)",
+      "page": 145,
+      "src": "assets/visuals/ch15_figure_15_1.webp"
+    },
+    {
+      "id": "table_15_1",
+      "chapterNum": 15,
+      "code": "TABLE 15-1",
+      "kind": "Table",
+      "caption": "Typical Clinical Features of Major Causes of Acute Chest Discomfort",
+      "page": 146,
+      "src": "assets/visuals/ch15_table_15_1.webp"
+    },
+    {
+      "id": "table_15_2",
+      "chapterNum": 15,
+      "code": "TABLE 15-2",
+      "kind": "Table",
+      "caption": "Considerations in the Assessment of the Patient with Chest Discomfort",
+      "page": 148,
+      "src": "assets/visuals/ch15_table_15_2.webp"
+    },
+    {
+      "id": "figure_15_2",
+      "chapterNum": 15,
+      "code": "FIGURE 15-2",
+      "kind": "Figure",
+      "caption": "Association of chest pain characteristics with the probability of acute myocardial infarction (AMI). Note that a subsequent larger study showed a nonsignificant association with radiation to the right arm. (Figure prepared from data in CJ Swap, JT Nagurney: JAMA 294:2623, 2005.)",
+      "page": 148,
+      "src": "assets/visuals/ch15_figure_15_2.webp"
+    },
+    {
+      "id": "figure_15_3",
+      "chapterNum": 15,
+      "code": "FIGURE 15-3",
+      "kind": "Figure",
+      "caption": "Clinical classification of patients with elevated cardiac troponin (cTn). MI, myocardial infarction.",
+      "page": 150,
+      "src": "assets/visuals/ch15_figure_15_3.webp"
+    },
+    {
+      "id": "figure_15_4",
+      "chapterNum": 15,
+      "code": "FIGURE 15-4",
+      "kind": "Algorithm / Flowchart",
+      "caption": "Examples of decision-aids used in conjunction with serial measurement of cardiac troponin (cTn) for evaluation of acute chest pain. The HEART score was modified by the authors in the presented study and omitting the assignment of 0, 1, or 2 points based on troponin. The negative predictive value (NPV) reported is for the composite endpoint of myocardial infarction (MI), cardiogenic shock, cardiac arrest, and all-cause mortality by 60 days. CABG, coronary artery bypass graft; CAD, coronary artery disease; ECG, electrocardiogram; PCI, percutaneous coronary intervention. (Figure prepared from data in DG Mark et al: J Am Coll Cardiol 13:606, 2018.)",
+      "page": 151,
+      "src": "assets/visuals/ch15_figure_15_4.webp"
+    },
+    {
+      "id": "table_16_1",
+      "chapterNum": 16,
+      "code": "TABLE 16-1",
+      "kind": "Table",
+      "caption": "Some Key Components of the Patient’s History",
+      "page": 152,
+      "src": "assets/visuals/ch16_table_16_1.webp"
+    },
+    {
+      "id": "table_16_2",
+      "chapterNum": 16,
+      "code": "TABLE 16-2",
+      "kind": "Table",
+      "caption": "Some Important Causes of Abdominal Pain",
+      "page": 153,
+      "src": "assets/visuals/ch16_table_16_2.webp"
+    },
+    {
+      "id": "table_16_3",
+      "chapterNum": 16,
+      "code": "TABLE 16-3",
+      "kind": "Table",
+      "caption": "Differential Diagnoses of Abdominal Pain by Usual Location",
+      "page": 155,
+      "src": "assets/visuals/ch16_table_16_3.webp"
+    },
+    {
+      "id": "table_20_1",
+      "chapterNum": 20,
+      "code": "TABLE 20-1",
+      "kind": "Table",
+      "caption": "Disease Categories That Present with Fever as a Cardinal Sign",
+      "page": 178,
+      "src": "assets/visuals/ch20_table_20_1.webp"
+    },
+    {
+      "id": "figure_20_1",
+      "chapterNum": 20,
+      "code": "FIGURE 20-1",
+      "kind": "Figure",
+      "caption": "Chronology of events required for the induction of fever. AMP, adenosine 5′-monophosphate; IFN, interferon; IL, interleukin; PGE2, prostaglandin E2; TNF, tumor necrosis factor.",
+      "page": 178,
+      "src": "assets/visuals/ch20_figure_20_1.webp"
+    },
+    {
+      "id": "table_21_1",
+      "chapterNum": 21,
+      "code": "TABLE 21-1",
+      "kind": "Table",
+      "caption": "Diseases Associated with Fever and Rash",
+      "page": 181,
+      "src": "assets/visuals/ch21_table_21_1.webp"
+    },
+    {
+      "id": "table_21_1_p182",
+      "chapterNum": 21,
+      "code": "TABLE 21-1",
+      "kind": "Table",
+      "caption": "Diseases Associated with Fever and Rash",
+      "page": 182,
+      "src": "assets/visuals/ch21_table_21_1_p182.webp"
+    },
+    {
+      "id": "table_21_1_p183",
+      "chapterNum": 21,
+      "code": "TABLE 21-1",
+      "kind": "Table",
+      "caption": "Diseases Associated with Fever and Rash",
+      "page": 183,
+      "src": "assets/visuals/ch21_table_21_1_p183.webp"
+    },
+    {
+      "id": "table_21_1_p184",
+      "chapterNum": 21,
+      "code": "TABLE 21-1",
+      "kind": "Table",
+      "caption": "Diseases Associated with Fever and Rash",
+      "page": 184,
+      "src": "assets/visuals/ch21_table_21_1_p184.webp"
+    },
+    {
+      "id": "table_21_1_p185",
+      "chapterNum": 21,
+      "code": "TABLE 21-1",
+      "kind": "Table",
+      "caption": "Diseases Associated with Fever and Rash",
+      "page": 185,
+      "src": "assets/visuals/ch21_table_21_1_p185.webp"
+    },
+    {
+      "id": "table_21_1_p186",
+      "chapterNum": 21,
+      "code": "TABLE 21-1",
+      "kind": "Table",
+      "caption": "Diseases Associated with Fever and Rash",
+      "page": 186,
+      "src": "assets/visuals/ch21_table_21_1_p186.webp"
+    },
+    {
+      "id": "table_21_1_p187",
+      "chapterNum": 21,
+      "code": "TABLE 21-1",
+      "kind": "Table",
+      "caption": "Diseases Associated with Fever and Rash",
+      "page": 187,
+      "src": "assets/visuals/ch21_table_21_1_p187.webp"
+    },
+    {
+      "id": "table_21_1_p188",
+      "chapterNum": 21,
+      "code": "TABLE 21-1",
+      "kind": "Table",
+      "caption": "Diseases Associated with Fever and Rash",
+      "page": 188,
+      "src": "assets/visuals/ch21_table_21_1_p188.webp"
+    },
+    {
+      "id": "figure_21_2",
+      "chapterNum": 21,
+      "code": "FIGURE 21-2",
+      "kind": "Figure",
+      "caption": "Peripheral eruption on the wrist and palm exhibiting erythematous macules in the process of evolving into petechial lesions in a patient with Rocky Mountain spotted fever. (From K Wolff et al [eds]: Fitzpatrick’s Color Atlas and Synopsis of Clinical Dermatology, 8th ed. New York, McGraw-Hill, 2017, p. 562, Figure 25-50; with permission.)",
+      "page": 189,
+      "src": "assets/visuals/ch21_figure_21_2.webp"
+    },
+    {
+      "id": "figure_21_1",
+      "chapterNum": 21,
+      "code": "FIGURE 21-1",
+      "kind": "Figure",
+      "caption": "Centrally distributed, maculopapular eruption on the trunk in a patient with measles. (From EJ Mayeaux Jr et al: Measles, in Usatine RP et al [eds]: Color Atlas and Synopsis of Family Medicine, 3rd ed. New York, McGraw-Hill, 2019, p. 797, Figure 132-2. Reproduced with permission from Richard P. Usatine, MD.)",
+      "page": 189,
+      "src": "assets/visuals/ch21_figure_21_1.webp"
+    },
+    {
+      "id": "figure_21_3",
+      "chapterNum": 21,
+      "code": "FIGURE 21-3",
+      "kind": "Figure",
+      "caption": "Confluent desquamation in a patient with toxic epidermal necrolysis. (From KS-M Kane et al: Color Atlas & Synopsis of Pediatric Dermatology, 3rd ed. New York, McGraw Hill, 2017, Figure 15-6; with permission.)",
+      "page": 190,
+      "src": "assets/visuals/ch21_figure_21_3.webp"
+    },
+    {
+      "id": "figure_21_4",
+      "chapterNum": 21,
+      "code": "FIGURE 21-4",
+      "kind": "Figure",
+      "caption": "Vesicular and pustular lesions on the chest in a patient with varicella. (From K Wolff et al [eds]: Fitzpatrick’s Color Atlas and Synopsis of Clinical Dermatology, 8th ed. New York, McGraw-Hill, 2017, p. 695, Figure 27-48; with permission.)",
+      "page": 190,
+      "src": "assets/visuals/ch21_figure_21_4.webp"
+    },
+    {
+      "id": "figure_21_5",
+      "chapterNum": 21,
+      "code": "FIGURE 21-5",
+      "kind": "Figure",
+      "caption": "Urticarial eruption. (From K Wolff et al [eds]: Fitzpatrick’s Color Atlas and Synopsis of Clinical Dermatology, 8th ed. New York, McGraw-Hill, 2017, p. 299, Figure 14-2; with permission.)",
+      "page": 190,
+      "src": "assets/visuals/ch21_figure_21_5.webp"
+    },
+    {
+      "id": "figure_21_7",
+      "chapterNum": 21,
+      "code": "FIGURE 21-7",
+      "kind": "Figure",
+      "caption": "Purpuric lesions of cutaneous small vessel vasculitis in a patient with Henoch-Schonlein purpura. (Courtesy of Peter Lio, MD; with permission)",
+      "page": 191,
+      "src": "assets/visuals/ch21_figure_21_7.webp"
+    },
+    {
+      "id": "figure_21_6",
+      "chapterNum": 21,
+      "code": "FIGURE 21-6",
+      "kind": "Figure",
+      "caption": "Nodular eruption on the face due to disseminated Cryptococcus in a patient living with HIV. (From K Wolff et al [eds]: Fitzpatrick’s Color Atlas and Synopsis of Clinical Dermatology, 8th ed. New York, McGraw-Hill, 2017, p. 641, Figure 26-57. Used with permission from Loïc Vallant, MD.)",
+      "page": 191,
+      "src": "assets/visuals/ch21_figure_21_6.webp"
+    },
+    {
+      "id": "figure_21_8",
+      "chapterNum": 21,
+      "code": "FIGURE 21-8",
+      "kind": "Figure",
+      "caption": "Eschar with surrounding erythema at the site of a tick bite in a patient with African tick-bite fever. (From K Wolff et al [eds]: Fitzpatrick’s Color Atlas and Synopsis of Clinical Dermatology, 8th ed. New York, McGraw-Hill, 2017, p. 561, Figure 25-49; with permission.)",
+      "page": 191,
+      "src": "assets/visuals/ch21_figure_21_8.webp"
+    },
+    {
+      "id": "table_22_1",
+      "chapterNum": 22,
+      "code": "TABLE 22-1",
+      "kind": "Table",
+      "caption": "Etiology of FUO: Pooled Results of Large Studies Published in the Past 20 Years (2003–2023)",
+      "page": 192,
+      "src": "assets/visuals/ch22_table_22_1.webp"
+    },
+    {
+      "id": "table_22_2",
+      "chapterNum": 22,
+      "code": "TABLE 22-2",
+      "kind": "Table",
+      "caption": "Reported Causes of Fever of Unknown Origin (FUO)a",
+      "page": 194,
+      "src": "assets/visuals/ch22_table_22_2.webp"
+    },
+    {
+      "id": "figure_22_1",
+      "chapterNum": 22,
+      "code": "FIGURE 22-1",
+      "kind": "Algorithm / Flowchart",
+      "caption": "Structured approach to patients with FUO. ALT, alanine aminotransferase; AST, aspartate aminotransferase; CRP, C-reactive protein; ESR, erythrocyte sedimentation rate; 18F-FDG-PET/CT, 18F-fluorodeoxyglucose positron emission tomography combined with low-dose CT; IGRA, interferon γ release assay; LDH, lactate dehydrogenase; NSAID, nonsteroidal anti-inflammatory drug; PDCs, potentially diagnostic clues (all localizing signs, symptoms, and abnormalities potentially pointing toward a diagnosis). *If not available, gallium scintigraphy or labeled leukocyte scintigraphy is an acceptable alternative.",
+      "page": 195,
+      "src": "assets/visuals/ch22_figure_22_1.webp"
+    },
+    {
+      "id": "figure_22_2",
+      "chapterNum": 22,
+      "code": "FIGURE 22-2",
+      "kind": "Figure",
+      "caption": "18F-FDG-PET/CT in a patient with FUO. This 72-year-old woman presented with a low-grade fever and severe fatigue of almost 3 months’ duration. An extensive history was taken, but the patient had no specific complaints and had not traveled recently. Her previous history was unremarkable, and she did not use any drugs. Physical examination, including palpation of the temporal arteries, yielded completely normal results. Laboratory examination showed normocytic anemia, a C-reactive protein level of 43 mg/L, an erythrocyte sedimentation rate of 87 mm/h, and mild hypoalbuminemia. Results of the other obligatory tests were all normal. 18F-FDG-PET/CT showed increased FDG uptake in all major arteries (carotid, jugular, and subclavian arteries; thoracic and abdominal aorta; iliac, femoral, and popliteal arteries) and in the soft tissue around the shoulders, hips, and knees—findings compatible with large-vessel vasculitis and polymyalgia rheumatica. Within 1 week after the initiation of treatment with prednisone (60 mg once daily), the patient completely recovered. After 1 month, the prednisone dose was slowly tapered.",
+      "page": 197,
+      "src": "assets/visuals/ch22_figure_22_2.webp"
+    },
+    {
+      "id": "table_23_1",
+      "chapterNum": 23,
+      "code": "TABLE 23-1",
+      "kind": "Table",
+      "caption": "High-Risk Features Indicating Hospitalization or Intensive Evaluation of Syncope",
+      "page": 199,
+      "src": "assets/visuals/ch23_table_23_1.webp"
+    },
+    {
+      "id": "figure_23_1",
+      "chapterNum": 23,
+      "code": "FIGURE 23-1",
+      "kind": "Algorithm / Flowchart",
+      "caption": "The baroreflex. A decrease in arterial pressure unloads the baroreceptors—the terminals of afferent fibers of the glossopharyngeal and vagus nerves—that are situated in the carotid sinus and aortic arch. This leads to a reduction in the afferent impulses that are relayed from these mechanoreceptors through the glossopharyngeal and vagus nerves to the nucleus of the tractus solitarius (NTS) in the dorsomedial medulla. The reduced baroreceptor afferent activity produces a decrease in vagal nerve input to the sinus node that is mediated via connections of the NTS to the nucleus ambiguus (NA). There is an increase in sympathetic efferent activity that is mediated by the NTS projections to the caudal ventrolateral medulla (CVLM) (an excitatory pathway) and from there to the rostral ventrolateral medulla (RVLM) (an inhibitory pathway). The activation of RVLM presympathetic neurons in response to hypotension is thus predominantly due to disinhibition. In response to a sustained fall in blood pressure, vasopressin release is mediated by projections from the A1 noradrenergic cell group in the ventrolateral medulla. This projection activates vasopressin-synthesizing neurons in the magnocellular portion of the paraventricular nucleus (PVN) and the supraoptic nucleus (SON) of the hypothalamus. Blue denotes sympathetic neurons, and green denotes parasympathetic neurons. (From R Freeman: Neurogenic orthostatic hypotension. N Engl J Med 358:615, 2008. Copyright © 2008 Massachusetts Medical Society. Reprinted with permission.)",
+      "page": 200,
+      "src": "assets/visuals/ch23_figure_23_1.webp"
+    },
+    {
+      "id": "figure_23_2",
+      "chapterNum": 23,
+      "code": "FIGURE 23-2",
+      "kind": "Figure",
+      "caption": "A. The paroxysmal hypotensive-bradycardic response that is characteristic of neurally mediated syncope. Noninvasive beat-to-beat blood pressure and heart rate are shown >5 min (from 60 to 360 s) of an upright tilt on a tilt table. B. The same tracing expanded to show 80 s of the episode (from 80 to 200 s). BP, blood pressure; bpm, beats per minute; HR, heart rate.",
+      "page": 200,
+      "src": "assets/visuals/ch23_figure_23_2.webp"
+    },
+    {
+      "id": "table_23_2",
+      "chapterNum": 23,
+      "code": "TABLE 23-2",
+      "kind": "Table",
+      "caption": "Causes of Syncope",
+      "page": 201,
+      "src": "assets/visuals/ch23_table_23_2.webp"
+    },
+    {
+      "id": "figure_23_3",
+      "chapterNum": 23,
+      "code": "FIGURE 23-3",
+      "kind": "Figure",
+      "caption": "A. The gradual fall in blood pressure without a compensatory heart rate increase that is characteristic of orthostatic hypotension due to autonomic failure. Blood pressure and heart rate are shown >5 min (from 60 to 360 s) of an upright tilt on a tilt table. B. The same tracing expanded to show 40 s of the episode (from 180 to 220 s). BP, blood pressure; bpm, beats per minute; HR, heart rate.",
+      "page": 202,
+      "src": "assets/visuals/ch23_figure_23_3.webp"
+    },
+    {
+      "id": "table_29_1",
+      "chapterNum": 29,
+      "code": "TABLE 29-1",
+      "kind": "Table",
+      "caption": "Differential Diagnosis of Delirium",
+      "page": 227,
+      "src": "assets/visuals/ch29_table_29_1.webp"
+    },
+    {
+      "id": "table_29_2",
+      "chapterNum": 29,
+      "code": "TABLE 29-2",
+      "kind": "Table",
+      "caption": "Stepwise Evaluation of a Patient with Delirium",
+      "page": 228,
+      "src": "assets/visuals/ch29_table_29_2.webp"
+    },
+    {
+      "id": "figure_30_1",
+      "chapterNum": 30,
+      "code": "FIGURE 30-1",
+      "kind": "Figure",
+      "caption": "Types of cerebral herniation: (A) uncal; (B) central; (C ) transfalcial; and (D) foraminal.",
+      "page": 230,
+      "src": "assets/visuals/ch30_figure_30_1.webp"
+    },
+    {
+      "id": "figure_30_2",
+      "chapterNum": 30,
+      "code": "FIGURE 30-2",
+      "kind": "Figure",
+      "caption": "Axial (A) and coronal (B) T2-weighted magnetic resonance images from a stuporous patient with a left third nerve palsy from a large left-sided meningioma. A. The upper midbrain is compressed and displaced horizontally away from the mass, and there is transtentorial herniation of the medial temporal lobe structures, including the uncus. B. The lateral ventricle opposite to the mass has become enlarged as a result of compression of the third ventricle.",
+      "page": 231,
+      "src": "assets/visuals/ch30_figure_30_2.webp"
+    },
+    {
+      "id": "figure_30_3",
+      "chapterNum": 30,
+      "code": "FIGURE 30-3",
+      "kind": "Figure",
+      "caption": "Examination of brainstem reflexes in coma. Midbrain and third nerve function are tested by pupillary reaction to light, pontine function by spontaneous and reflex eye movements and corneal responses, and medullary function by respiratory and pharyngeal responses. Reflex conjugate, horizontal eye movements are dependent on the medial longitudinal fasciculus (MLF) interconnecting the sixth and contralateral third nerve nuclei. Head rotation (oculocephalic reflex) or caloric stimulation of the labyrinths (oculovestibular reflex) elicits contraversive eye movements (for details, see text).",
+      "page": 233,
+      "src": "assets/visuals/ch30_figure_30_3.webp"
+    },
+    {
+      "id": "table_30_1",
+      "chapterNum": 30,
+      "code": "TABLE 30-1",
+      "kind": "Table",
+      "caption": "Differential Diagnosis of Coma",
+      "page": 234,
+      "src": "assets/visuals/ch30_table_30_1.webp"
+    },
+    {
+      "id": "figure_39_1",
+      "chapterNum": 39,
+      "code": "FIGURE 39-1",
+      "kind": "Algorithm / Flowchart",
+      "caption": "Potential signaling pathways underlying the sensation of dyspnea. Dyspnea is a complex sensation that can arise from a variety of physiologic stimuli (examples in pink boxes include hypoxemia, hypercapnia, acidemia, increase in airway resistance, and decrease in lung and/or chest wall compliance). Physiologic signals are mediated via relevant receptors (examples in yellow boxes include central chemoreceptors in the medulla; peripheral chemoreceptors in the carotid body and aortic arch; mechanoreceptors in upper airways, lungs, and chest wall; and metaboreceptors in skeletal muscle) that send afferent signals to the brainstem and sensory cortex. Efferent signals are sent from the brainstem and motor cortex to the respiratory muscles and sensory cortex. Potential symptoms associated with dyspnea that may be generated by these signals are indicated in italics.",
+      "page": 311,
+      "src": "assets/visuals/ch39_figure_39_1.webp"
+    },
+    {
+      "id": "table_39_1",
+      "chapterNum": 39,
+      "code": "TABLE 39-1",
+      "kind": "Table",
+      "caption": "An Example of a Clinical Method for Rating Dyspnea: The Modified Medical Research Council Dyspnea Scalea",
+      "page": 311,
+      "src": "assets/visuals/ch39_table_39_1.webp"
+    },
+    {
+      "id": "table_39_2",
+      "chapterNum": 39,
+      "code": "TABLE 39-2",
+      "kind": "Table",
+      "caption": "Differential Diagnosis of Disease Processes Underlying Dyspnea",
+      "page": 312,
+      "src": "assets/visuals/ch39_table_39_2.webp"
+    },
+    {
+      "id": "figure_39_2",
+      "chapterNum": 39,
+      "code": "FIGURE 39-2",
+      "kind": "Algorithm / Flowchart",
+      "caption": "Possible algorithm for the evaluation of the patient with dyspnea. As described in the text, the approach should begin with a detailed history and physical examination, followed by progressive testing and ultimately more invasive testing and subspecialty referral as is indicated to determine the underlying cause of dyspnea. CBC, complete blood count; DLCO, diffusing capacity of the lungs for carbon monoxide; ECG, electrocardiogram. (Adapted from NG Karnani et al: Am Fam Physician 71:1529, 2005.)",
+      "page": 313,
+      "src": "assets/visuals/ch39_figure_39_2.webp"
+    },
+    {
+      "id": "table_42_1",
+      "chapterNum": 42,
+      "code": "TABLE 42-1",
+      "kind": "Table",
+      "caption": "Causes of Cyanosis",
+      "page": 321,
+      "src": "assets/visuals/ch42_table_42_1.webp"
+    },
+    {
+      "id": "figure_43_1",
+      "chapterNum": 43,
+      "code": "FIGURE 43-1",
+      "kind": "Figure",
+      "caption": "Clinical conditions in which a decrease in cardiac output (A) and systemic vascular resistance (B) cause arterial underfilling with resulting neurohumoral activation and renal sodium and water retention. In addition to activating the neurohumoral axis, adrenergic stimulation causes renal vasoconstriction and enhances sodium and fluid transport by the proximal tubule epithelium. AVP, arginine vasopressin; RAAS, renin-angiotensin aldosterone system; SNS, sympathetic nervous system. (From Annals of Internal Medicine, RW Schrier: Body fluid volume regulation in health and disease: A unifying hypothesis. 113(2):155-159, 1990. Copyright © 1990, American College of Physicians. All Rights Reserved. Reprinted with the permission of American College of Physicians, Inc.)",
+      "page": 323,
+      "src": "assets/visuals/ch43_figure_43_1.webp"
+    },
+    {
+      "id": "table_43_1",
+      "chapterNum": 43,
+      "code": "TABLE 43-1",
+      "kind": "Table",
+      "caption": "Principal Causes of Generalized Edema: History, Physical Examination, and Laboratory Findings",
+      "page": 324,
+      "src": "assets/visuals/ch43_table_43_1.webp"
+    },
+    {
+      "id": "table_43_2",
+      "chapterNum": 43,
+      "code": "TABLE 43-2",
+      "kind": "Table",
+      "caption": "Drugs Associated with Edema Formation",
+      "page": 325,
+      "src": "assets/visuals/ch43_table_43_2.webp"
+    },
+    {
+      "id": "figure_51_1",
+      "chapterNum": 51,
+      "code": "FIGURE 51-1",
+      "kind": "Algorithm / Flowchart",
+      "caption": "Suggested algorithm for patients with acute upper gastrointestinal bleeding (hematemesis, melena) based on endoscopic findings. aIntravenous bolus (80 mg) followed by infusion (8 mg/h) or by intermittent oral or intravenous doses (e.g., 40 mg 2–4 times per day) for 3 days. bIntravenous 50 μg bolus followed by 50 μg/h infusion for 2–5 days. cDiet after endoscopy, assuming no nausea or vomiting. dDuration after endoscopy assuming patient stable without further bleeding or concurrent medical conditions requiring hospitalization. PPI, proton pump inhibitor.",
+      "page": 360,
+      "src": "assets/visuals/ch51_figure_51_1.webp"
+    },
+    {
+      "id": "table_51_1",
+      "chapterNum": 51,
+      "code": "TABLE 51-1",
+      "kind": "Table",
+      "caption": "Glasgow-Blatchford Score",
+      "page": 362,
+      "src": "assets/visuals/ch51_table_51_1.webp"
+    },
+    {
+      "id": "figure_51_2",
+      "chapterNum": 51,
+      "code": "FIGURE 51-2",
+      "kind": "Algorithm / Flowchart",
+      "caption": "Suggested algorithm for patients with acute lower gastrointestinal (GI) bleeding (hematochezia). aFor patients <35 years old with minor bleeding (e.g., blood on toilet paper), normal blood pressure and heart rate, normal hemoglobin and iron panel, and no family history of colorectal cancer, some would suggest flexible sigmoidoscopy is adequate.",
+      "page": 362,
+      "src": "assets/visuals/ch51_figure_51_2.webp"
+    },
+    {
+      "id": "figure_52_1",
+      "chapterNum": 52,
+      "code": "FIGURE 52-1",
+      "kind": "Algorithm / Flowchart",
+      "caption": "Evaluation of the patient with jaundice. ALT, alanine aminotransferase; AMA, antimitochondrial antibody; ANA, antinuclear antibody; AST, aspartate aminotransferase; CMV, cytomegalovirus; EBV, Epstein-Barr virus; ERCP, endoscopic retrograde cholangiopancreatography; LKM, liver-kidney microsomal antibody; MRCP, magnetic resonance cholangiopancreatography; SMA, smooth-muscle antibody; SPEP, serum protein electrophoresis.",
+      "page": 365,
+      "src": "assets/visuals/ch52_figure_52_1.webp"
+    },
+    {
+      "id": "table_52_1",
+      "chapterNum": 52,
+      "code": "TABLE 52-1",
+      "kind": "Table",
+      "caption": "Causes of Isolated Hyperbilirubinemia",
+      "page": 366,
+      "src": "assets/visuals/ch52_table_52_1.webp"
+    },
+    {
+      "id": "table_52_2",
+      "chapterNum": 52,
+      "code": "TABLE 52-2",
+      "kind": "Table",
+      "caption": "Hepatocellular Conditions That May Produce Jaundice",
+      "page": 367,
+      "src": "assets/visuals/ch52_table_52_2.webp"
+    },
+    {
+      "id": "table_52_3",
+      "chapterNum": 52,
+      "code": "TABLE 52-3",
+      "kind": "Table",
+      "caption": "Cholestatic Conditions That May Produce Jaundice",
+      "page": 368,
+      "src": "assets/visuals/ch52_table_52_3.webp"
+    },
+    {
+      "id": "figure_53_1",
+      "chapterNum": 53,
+      "code": "FIGURE 53-1",
+      "kind": "Figure",
+      "caption": "CT of a patient with a cirrhotic, nodular liver (white arrow), splenomegaly (yellow arrow), and ascites (arrowheads).",
+      "page": 370,
+      "src": "assets/visuals/ch53_figure_53_1.webp"
+    },
+    {
+      "id": "figure_53_2",
+      "chapterNum": 53,
+      "code": "FIGURE 53-2",
+      "kind": "Figure",
+      "caption": "CT of a patient with peritoneal carcinomatosis (white arrow) and ascites (yellow arrow).",
+      "page": 371,
+      "src": "assets/visuals/ch53_figure_53_2.webp"
+    },
+    {
+      "id": "figure_53_3",
+      "chapterNum": 53,
+      "code": "FIGURE 53-3",
+      "kind": "Algorithm / Flowchart",
+      "caption": "Algorithm for the diagnosis of ascites according to the serum-ascites albumin gradient (SAAG). IVC, inferior vena cava.",
+      "page": 372,
+      "src": "assets/visuals/ch53_figure_53_3.webp"
+    },
+    {
+      "id": "table_55_1",
+      "chapterNum": 55,
+      "code": "TABLE 55-1",
+      "kind": "Table",
+      "caption": "Initial Clinical and Laboratory Database for Defining Major Syndromes in Nephrology",
+      "page": 381,
+      "src": "assets/visuals/ch55_table_55_1.webp"
+    },
+    {
+      "id": "figure_55_1",
+      "chapterNum": 55,
+      "code": "FIGURE 55-1",
+      "kind": "Algorithm / Flowchart",
+      "caption": "Approach to the patient with azotemia. FeNa, fractional excretion of sodium; GBM, glomerular basement membrane; RBC, red blood cell; U, urine; WBC, white blood cell.",
+      "page": 382,
+      "src": "assets/visuals/ch55_figure_55_1.webp"
+    },
+    {
+      "id": "table_55_2",
+      "chapterNum": 55,
+      "code": "TABLE 55-2",
+      "kind": "Table",
+      "caption": "Laboratory Findings in Acute Renal Failure",
+      "page": 383,
+      "src": "assets/visuals/ch55_table_55_2.webp"
+    },
+    {
+      "id": "figure_55_2",
+      "chapterNum": 55,
+      "code": "FIGURE 55-2",
+      "kind": "Algorithm / Flowchart",
+      "caption": "Approach to the patient with hematuria. ANCA, antineutrophil cytoplasmic antibody; ASLO, antistreptolysin O; CT, computed tomography; GBM, glomerular basement membrane; IVP, intravenous pyelography; RBC, red blood cell; UA, urinalysis; VDRL, Venereal Disease Research Laboratory; WBC, white blood cell.",
+      "page": 384,
+      "src": "assets/visuals/ch55_figure_55_2.webp"
+    },
+    {
+      "id": "figure_55_3",
+      "chapterNum": 55,
+      "code": "FIGURE 55-3",
+      "kind": "Algorithm / Flowchart",
+      "caption": "Approach to the patient with proteinuria. Investigation of proteinuria is often initiated by a positive dipstick on routine urinalysis. Conventional dipsticks detect predominantly albumin and provide a semiquantitative assessment (trace, 1+, 2+, or 3+), which is influenced by urinary concentration as reflected by urine specific gravity (minimum, <1.005; maximum, 1.030). However, more exact determination of proteinuria should employ a spot morning protein/creatinine ratio (mg/g) or a 24-h urine collection (mg/24 h). FSGS, focal segmental glomerulosclerosis; RBC, red blood cell; UPEP, urine protein electrophoresis.",
+      "page": 385,
+      "src": "assets/visuals/ch55_figure_55_3.webp"
+    },
+    {
+      "id": "figure_55_4",
+      "chapterNum": 55,
+      "code": "FIGURE 55-4",
+      "kind": "Algorithm / Flowchart",
+      "caption": "Approach to the patient with polyuria. ADH, antidiuretic hormone; ATN, acute tubular necrosis.",
+      "page": 386,
+      "src": "assets/visuals/ch55_figure_55_4.webp"
+    },
+    {
+      "id": "figure_56_1",
+      "chapterNum": 56,
+      "code": "FIGURE 56-1",
+      "kind": "Figure",
+      "caption": "Circulating levels of vasopressin (AVP) in response to changes in osmolality. Plasma AVP becomes detectable in euvolemic, healthy individuals at a threshold of ~285 mOsm/kg, above which there is a linear relationship between osmolality and circulating AVP. The AVP response to osmolality is modulated strongly by volume status. The osmotic threshold is thus slightly lower in hypovolemia, with a steeper response curve; hypervolemia reduces the sensitivity of circulating AVP levels to osmolality.",
+      "page": 387,
+      "src": "assets/visuals/ch56_figure_56_1.webp"
+    },
+    {
+      "id": "figure_56_3",
+      "chapterNum": 56,
+      "code": "FIGURE 56-3",
+      "kind": "Algorithm / Flowchart",
+      "caption": "Vasopressin and the regulation of water permeability in the renal collecting duct. Vasopressin binds to the type 2 vasopressin receptor (V2R) on the basolateral membrane of principal cells, activates adenylyl cyclase (AC), increases intracellular cyclic adenosine monophosphatase (cAMP), and stimulates protein kinase A (PKA) activity. Cytoplasmic vesicles carrying aquaporin-2 (AQP) water channel proteins are inserted into the luminal membrane in response to vasopressin, thereby increasing the water permeability of this membrane. When vasopressin stimulation ends, water channels are retrieved by an endocytic process and water permeability returns to its low basal rate. The AQP3 and AQP4 water channels are expressed on the basolateral membrane and complete the transcellular pathway for water reabsorption. pAQP2, phosphorylated aquaporin-2. (From Annals of Internal Medicine JM Sands, DG Bichet: Nephrogenic diabetes insipidus. 144:186, 2006. Copyright © 2006 American College of Physicians. All Rights Reserved. Reprinted with the permission of American College of Physicians, Inc.)",
+      "page": 388,
+      "src": "assets/visuals/ch56_figure_56_3.webp"
+    },
+    {
+      "id": "figure_56_2",
+      "chapterNum": 56,
+      "code": "FIGURE 56-2",
+      "kind": "Figure",
+      "caption": "The renal concentrating mechanism. Water, salt, and solute transport by both proximal and distal nephron segments participates in the renal concentrating mechanism (see text for details). Diagram showing the location of the major transport proteins involved; a loop of Henle is depicted on the left, collecting duct on the right. AQP, aquaporin; CLC-K1, chloride channel; NKCC2, Na-K-2Cl cotransporter; ROMK, renal outer medullary K+ channel; UT, urea transporter. (Reproduced with permission from JM Sands: Molecular approaches to urea transporters. J Am Soc Nephro 13(11):2795, 2002.)",
+      "page": 388,
+      "src": "assets/visuals/ch56_figure_56_2.webp"
+    },
+    {
+      "id": "figure_56_4",
+      "chapterNum": 56,
+      "code": "FIGURE 56-4",
+      "kind": "Figure",
+      "caption": "Sodium, water, and potassium transport in principal cells (PC) and adjacent `-intercalated cells (B-IC). The absorption of Na+ via the amiloride- sensitive epithelial sodium channel (ENaC) generates a lumen-negative potential difference, which drives K+ excretion through the apical secretory K+ channel ROMK (renal outer medullary K+ channel) and/or the flow-dependent BK channel. Transepithelial Cl– transport occurs in adjacent β-intercalated cells, via apical Cl–- HCO3",
+      "page": 389,
+      "src": "assets/visuals/ch56_figure_56_4.webp"
+    },
+    {
+      "id": "figure_56_5",
+      "chapterNum": 56,
+      "code": "FIGURE 56-5",
+      "kind": "Algorithm / Flowchart",
+      "caption": "The diagnostic approach to hyponatremia. (Reproduced with permission from S Kumar, T Berl: Diseases of water metabolism, in RW Schrier [ed], Atlas of Diseases of the Kidney, Philadelphia, Current Medicine, Inc, 1999.)",
+      "page": 391,
+      "src": "assets/visuals/ch56_figure_56_5.webp"
+    },
+    {
+      "id": "table_56_1",
+      "chapterNum": 56,
+      "code": "TABLE 56-1",
+      "kind": "Table",
+      "caption": "Causes of the Syndrome of Inappropriate Antidiuresis (SIAD)",
+      "page": 392,
+      "src": "assets/visuals/ch56_table_56_1.webp"
+    },
+    {
+      "id": "table_56_2",
+      "chapterNum": 56,
+      "code": "TABLE 56-2",
+      "kind": "Table",
+      "caption": "Causes of Acute Hyponatremia",
+      "page": 392,
+      "src": "assets/visuals/ch56_table_56_2.webp"
+    },
+    {
+      "id": "table_56_3",
+      "chapterNum": 56,
+      "code": "TABLE 56-3",
+      "kind": "Table",
+      "caption": "Management of Hypernatremia",
+      "page": 394,
+      "src": "assets/visuals/ch56_table_56_3.webp"
+    },
+    {
+      "id": "figure_56_6",
+      "chapterNum": 56,
+      "code": "FIGURE 56-6",
+      "kind": "Algorithm / Flowchart",
+      "caption": "The diagnostic approach to hypernatremia. ECF, extracellular fluid.",
+      "page": 395,
+      "src": "assets/visuals/ch56_figure_56_6.webp"
+    },
+    {
+      "id": "table_56_4",
+      "chapterNum": 56,
+      "code": "TABLE 56-4",
+      "kind": "Table",
+      "caption": "Causes of Hypokalemia",
+      "page": 397,
+      "src": "assets/visuals/ch56_table_56_4.webp"
+    },
+    {
+      "id": "figure_56_7",
+      "chapterNum": 56,
+      "code": "FIGURE 56-7",
+      "kind": "Algorithm / Flowchart",
+      "caption": "The diagnostic approach to hypokalemia. See text for details. AME, apparent mineralocorticoid excess; BP, blood pressure; CCD, cortical collecting duct; DKA, diabetic ketoacidosis; FH-I, familial hyperaldosteronism type I; FHPP, familial hypokalemic periodic paralysis; GI, gastrointestinal; GRA, glucocorticoid remediable aldosteronism; HTN, hypertension; PA, primary aldosteronism; RAS, renal artery stenosis; RST, renin-secreting tumor; RTA, renal tubular acidosis; SAME, syndrome of apparent mineralocorticoid excess; TTKG, transtubular potassium gradient. (Reproduced with permission from DB Mount, K Zandi-Nejad: Disorders of potassium balance, in BM Brenner [ed], Brenner and Rector’s The Kidney, 8th ed, Philadelphia, W.B. Saunders & Company, 2008.)",
+      "page": 400,
+      "src": "assets/visuals/ch56_figure_56_7.webp"
+    },
+    {
+      "id": "table_56_5",
+      "chapterNum": 56,
+      "code": "TABLE 56-5",
+      "kind": "Table",
+      "caption": "Causes of Hyperkalemia",
+      "page": 401,
+      "src": "assets/visuals/ch56_table_56_5.webp"
+    },
+    {
+      "id": "figure_56_8",
+      "chapterNum": 56,
+      "code": "FIGURE 56-8",
+      "kind": "Algorithm / Flowchart",
+      "caption": "The diagnostic approach to hyperkalemia. See text for details. ACE-I, angiotensin-converting enzyme inhibitor; ARB, angiotensin II receptor blocker; CCD, cortical collecting duct; ECG, electrocardiogram; ECV, effective circulatory volume; GFR, glomerular filtration rate; GN, glomerulonephritis; HIV, human immunodeficiency virus; LMW heparin, low-molecular-weight heparin; NSAIDs, nonsteroidal anti-inflammatory drugs; PHA, pseudohypoaldosteronism; SLE, systemic lupus erythematosus; TTKG, transtubular potassium gradient. (Reproduced with permission from DB Mount, K Zandi-Nejad: Disorders of potassium balance, in BM Brenner [ed], Brenner and Rector’s The Kidney, 8th ed, Philadelphia, W.B. Saunders & Company, 2008.)",
+      "page": 403,
+      "src": "assets/visuals/ch56_figure_56_8.webp"
+    },
+    {
+      "id": "figure_58_1",
+      "chapterNum": 58,
+      "code": "FIGURE 58-1",
+      "kind": "Figure",
+      "caption": "Acid-base nomogram. Shown are the 90% confidence limits (range of values) of the normal respiratory and metabolic compensations for primary acid- base disturbances. (Reproduced with permission from LL Hamm and TD DuBose Jr, in Alan S.L. Yu, et al (eds): Brenner and Rector’s The Kidney, 11th ed. Philadelphia, Elsevier, 2020.)",
+      "page": 410,
+      "src": "assets/visuals/ch58_figure_58_1.webp"
+    },
+    {
+      "id": "table_58_1",
+      "chapterNum": 58,
+      "code": "TABLE 58-1",
+      "kind": "Table",
+      "caption": "Prediction of Compensatory Responses to Simple Acid-Base Disturbances and Pattern of Changes",
+      "page": 410,
+      "src": "assets/visuals/ch58_table_58_1.webp"
+    },
+    {
+      "id": "table_58_2",
+      "chapterNum": 58,
+      "code": "TABLE 58-2",
+      "kind": "Table",
+      "caption": "Clinical Examples of Mixed Acid-Base Disorders",
+      "page": 411,
+      "src": "assets/visuals/ch58_table_58_2.webp"
+    },
+    {
+      "id": "table_58_3",
+      "chapterNum": 58,
+      "code": "TABLE 58-3",
+      "kind": "Table",
+      "caption": "Steps in Accurate Diagnosis of Acid-Base Disorders",
+      "page": 411,
+      "src": "assets/visuals/ch58_table_58_3.webp"
+    },
+    {
+      "id": "table_58_4",
+      "chapterNum": 58,
+      "code": "TABLE 58-4",
+      "kind": "Table",
+      "caption": "Causes of High-Anion Gap Metabolic Acidosis",
+      "page": 412,
+      "src": "assets/visuals/ch58_table_58_4.webp"
+    },
+    {
+      "id": "table_58_5",
+      "chapterNum": 58,
+      "code": "TABLE 58-5",
+      "kind": "Table",
+      "caption": "Causes of Non–Anion Gap Acidosis",
+      "page": 415,
+      "src": "assets/visuals/ch58_table_58_5.webp"
+    },
+    {
+      "id": "table_58_6",
+      "chapterNum": 58,
+      "code": "TABLE 58-6",
+      "kind": "Table",
+      "caption": "Causes of Metabolic Alkalosis",
+      "page": 417,
+      "src": "assets/visuals/ch58_table_58_6.webp"
+    },
+    {
+      "id": "table_58_7",
+      "chapterNum": 58,
+      "code": "TABLE 58-7",
+      "kind": "Table",
+      "caption": "Respiratory Acid-Base Disorders",
+      "page": 418,
+      "src": "assets/visuals/ch58_table_58_7.webp"
+    },
+    {
+      "id": "figure_66_1",
+      "chapterNum": 66,
+      "code": "FIGURE 66-1",
+      "kind": "Figure",
+      "caption": "The physiologic regulation of red cell production by tissue oxygen tension. Hb, hemoglobin.",
+      "page": 486,
+      "src": "assets/visuals/ch66_figure_66_1.webp"
+    },
+    {
+      "id": "figure_66_2",
+      "chapterNum": 66,
+      "code": "FIGURE 66-2",
+      "kind": "Figure",
+      "caption": "Erythropoietin (EPO) levels in response to anemia. When the hemoglobin level falls to 120 g/L (12 g/dL), plasma EPO levels increase logarithmically. In the presence of chronic kidney disease or chronic inflammation, EPO levels are typically lower than expected for the degree of anemia. As individuals age, the level of EPO needed to sustain normal hemoglobin levels appears to increase. (Reproduced with permission from RS Hillman et al: Hematology in Clinical Practice, 5th ed. New York, McGraw-Hill, 2010.)",
+      "page": 487,
+      "src": "assets/visuals/ch66_figure_66_2.webp"
+    },
+    {
+      "id": "table_66_1",
+      "chapterNum": 66,
+      "code": "TABLE 66-1",
+      "kind": "Table",
+      "caption": "Red Cell Indices",
+      "page": 488,
+      "src": "assets/visuals/ch66_table_66_1.webp"
+    },
+    {
+      "id": "figure_66_3",
+      "chapterNum": 66,
+      "code": "FIGURE 66-3",
+      "kind": "Figure",
+      "caption": "Normal blood smear (Wright stain). High-power field showing normal red cells, a neutrophil, and a few platelets. (From RS Hillman et al: Hematology in Clinical Practice, 5th ed. New York, McGraw-Hill, 2010.)",
+      "page": 488,
+      "src": "assets/visuals/ch66_figure_66_3.webp"
+    },
+    {
+      "id": "figure_66_4",
+      "chapterNum": 66,
+      "code": "FIGURE 66-4",
+      "kind": "Figure",
+      "caption": "Severe iron-deficiency anemia. Microcytic and hypochromic red cells smaller than the nucleus of a lymphocyte associated with marked variation in size (anisocytosis) and shape (poikilocytosis). (From RS Hillman et al: Hematology in Clinical Practice, 5th ed. New York, McGraw-Hill, 2010.)",
+      "page": 488,
+      "src": "assets/visuals/ch66_figure_66_4.webp"
+    },
+    {
+      "id": "table_66_2",
+      "chapterNum": 66,
+      "code": "TABLE 66-2",
+      "kind": "Table",
+      "caption": "Changes in Normal Hemoglobin/Hematocrit Values with Age, Sex, and Pregnancy",
+      "page": 488,
+      "src": "assets/visuals/ch66_table_66_2.webp"
+    },
+    {
+      "id": "figure_66_5",
+      "chapterNum": 66,
+      "code": "FIGURE 66-5",
+      "kind": "Figure",
+      "caption": "Macrocytosis. Red cells are larger than a small lymphocyte and well hemoglobinized. Often macrocytes are oval shaped (macro-ovalocytes). (From RS Hillman et al: Hematology in Clinical Practice, 5th ed. New York, McGraw-Hill, 2010.)",
+      "page": 488,
+      "src": "assets/visuals/ch66_figure_66_5.webp"
+    },
+    {
+      "id": "figure_66_6",
+      "chapterNum": 66,
+      "code": "FIGURE 66-6",
+      "kind": "Figure",
+      "caption": "Howell-Jolly bodies. In the absence of a functional spleen, nuclear remnants are not culled from the red cells and remain as small homogeneously staining blue inclusions on Wright stain. (From M Lichtman et al (eds): Williams Hematology, 7th ed. New York, McGraw-Hill, 2005; RS Hillman, KA Ault: Hematology in General Practice, 4th ed. New York, McGraw-Hill, 2005.)",
+      "page": 489,
+      "src": "assets/visuals/ch66_figure_66_6.webp"
+    },
+    {
+      "id": "figure_66_9",
+      "chapterNum": 66,
+      "code": "FIGURE 66-9",
+      "kind": "Figure",
+      "caption": "Red cell fragmentation. Red cells may become fragmented in the presence of foreign bodies in the circulation, such as mechanical heart valves, or in the setting of thermal injury. (From RS Hillman et al: Hematology in Clinical Practice, 5th ed. New York, McGraw-Hill, 2010.)",
+      "page": 489,
+      "src": "assets/visuals/ch66_figure_66_9.webp"
+    },
+    {
+      "id": "figure_66_10",
+      "chapterNum": 66,
+      "code": "FIGURE 66-10",
+      "kind": "Figure",
+      "caption": "Uremia. The red cells in uremia may acquire numerous regularly spaced, small, spiny projections. Such cells, called burr cells or echinocytes, are readily distinguishable from irregularly spiculated acanthocytes shown in Fig. 66-11. (From RS Hillman et al: Hematology in Clinical Practice, 5th ed. New York, McGraw- Hill, 2010.)",
+      "page": 489,
+      "src": "assets/visuals/ch66_figure_66_10.webp"
+    },
+    {
+      "id": "figure_66_7",
+      "chapterNum": 66,
+      "code": "FIGURE 66-7",
+      "kind": "Figure",
+      "caption": "Red cell changes in myelofibrosis. The left panel shows a teardrop- shaped cell. The right panel shows a nucleated red cell. These forms can be seen in myelofibrosis. (From RS Hillman et al: Hematology in Clinical Practice, 5th ed. New York, McGraw-Hill, 2010.)",
+      "page": 489,
+      "src": "assets/visuals/ch66_figure_66_7.webp"
+    },
+    {
+      "id": "figure_66_8",
+      "chapterNum": 66,
+      "code": "FIGURE 66-8",
+      "kind": "Figure",
+      "caption": "Target cells. Target cells have a bull’s-eye appearance and are seen in thalassemia and in liver disease. (From M Lichtman et al (eds): Williams Hematology, 7th ed. New York, McGraw-Hill, 2005; RS Hillman, KA Ault: Hematology in General Practice, 4th ed. New York, McGraw-Hill, 2005.)",
+      "page": 489,
+      "src": "assets/visuals/ch66_figure_66_8.webp"
+    },
+    {
+      "id": "figure_66_11",
+      "chapterNum": 66,
+      "code": "FIGURE 66-11",
+      "kind": "Figure",
+      "caption": "Spur cells. Spur cells are recognized as distorted red cells containing several irregularly distributed thorn-like projections. Cells with this morphologic abnormality are also called acanthocytes. (From RS Hillman et al: Hematology in Clinical Practice, 5th ed. New York, McGraw-Hill, 2010.)",
+      "page": 489,
+      "src": "assets/visuals/ch66_figure_66_11.webp"
+    },
+    {
+      "id": "figure_66_12",
+      "chapterNum": 66,
+      "code": "FIGURE 66-12",
+      "kind": "Figure",
+      "caption": "Reticulocytes. Methylene blue stain demonstrates residual RNA in newly made red cells. (From RS Hillman et al: Hematology in Clinical Practice, 5th ed. New York, McGraw-Hill, 2010.)",
+      "page": 490,
+      "src": "assets/visuals/ch66_figure_66_12.webp"
+    },
+    {
+      "id": "table_66_3",
+      "chapterNum": 66,
+      "code": "TABLE 66-3",
+      "kind": "Table",
+      "caption": "Red Cell Morphology",
+      "page": 490,
+      "src": "assets/visuals/ch66_table_66_3.webp"
+    },
+    {
+      "id": "figure_66_13",
+      "chapterNum": 66,
+      "code": "FIGURE 66-13",
+      "kind": "Figure",
+      "caption": "Interpretation of reticulocyte counts. If the absolute reticulocyte count is not provided, the percent reticulocytes must be adjusted based on the hematocrit.",
+      "page": 490,
+      "src": "assets/visuals/ch66_figure_66_13.webp"
+    },
+    {
+      "id": "figure_66_16",
+      "chapterNum": 66,
+      "code": "FIGURE 66-16",
+      "kind": "Figure",
+      "caption": "Myeloid hyperplasia. This marrow shows an increase in the fraction of cells in the myeloid or granulocytic lineage as might be seen in a normal marrow responding to infection. The myeloid/erythroid (M/E) ratio is >3:1. (From RS Hillman et al: Hematology in Clinical Practice, 5th ed. New York, McGraw-Hill, 2010.)",
+      "page": 491,
+      "src": "assets/visuals/ch66_figure_66_16.webp"
+    },
+    {
+      "id": "figure_66_14",
+      "chapterNum": 66,
+      "code": "FIGURE 66-14",
+      "kind": "Figure",
+      "caption": "Normal bone marrow. This is a low-power view of a section of a normal bone marrow biopsy stained with hematoxylin and eosin (H&E). Note that the nucleated cellular elements account for ∼40–50% and the fat (clear areas) accounts for ∼50–60% of the area. (From RS Hillman et al: Hematology in Clinical Practice, 5th ed. New York, McGraw-Hill, 2010.)",
+      "page": 491,
+      "src": "assets/visuals/ch66_figure_66_14.webp"
+    },
+    {
+      "id": "figure_66_15",
+      "chapterNum": 66,
+      "code": "FIGURE 66-15",
+      "kind": "Figure",
+      "caption": "Erythroid hyperplasia. This marrow shows an increase in the fraction of cells in the erythroid lineage as might be seen when a normal marrow compensates for acute blood loss or hemolysis. The myeloid/erythroid (M/E) ratio is about 1:1. (From RS Hillman et al: Hematology in Clinical Practice, 5th ed. New York, McGraw-Hill, 2010.)",
+      "page": 491,
+      "src": "assets/visuals/ch66_figure_66_15.webp"
+    },
+    {
+      "id": "table_66_4",
+      "chapterNum": 66,
+      "code": "TABLE 66-4",
+      "kind": "Table",
+      "caption": "Classification of Anemia",
+      "page": 492,
+      "src": "assets/visuals/ch66_table_66_4.webp"
+    },
+    {
+      "id": "figure_66_17",
+      "chapterNum": 66,
+      "code": "FIGURE 66-17",
+      "kind": "Figure",
+      "caption": "The physiologic classification of anemia. BUN, blood urea nitrogen; CBC, complete blood count; EPO, erythropoietin level; MCV, mean corpuscular volume; SPEP, serum protein electrophoresis.",
+      "page": 494,
+      "src": "assets/visuals/ch66_figure_66_17.webp"
+    },
+    {
+      "id": "figure_66_18",
+      "chapterNum": 66,
+      "code": "FIGURE 66-18",
+      "kind": "Algorithm / Flowchart",
+      "caption": "An approach to the differential diagnosis of patients with an elevated hemoglobin (possible polycythemia). VAF, variant allele frequency; VHL, von Hippel- Lindau syndrome. (Reproduced with permission from Jerry L. Spivak.)",
+      "page": 495,
+      "src": "assets/visuals/ch66_figure_66_18.webp"
+    },
+    {
+      "id": "figure_69_1",
+      "chapterNum": 69,
+      "code": "FIGURE 69-1",
+      "kind": "Algorithm / Flowchart",
+      "caption": "Coagulation is initiated by tissue factor (TF) exposure, which, with factor (F) VIIa, activates FIX and FX, which in turn, with FVIII and FV as cofactors, respectively, results in thrombin formation and subsequent conversion of fibrinogen to fibrin. Thrombin activates FXI, FVIII, and FV, amplifying the coagulation signal. Once the TF/FVIIa/ FXa complex is formed, tissue factor pathway inhibitor (TFPI) inhibits the TF/FVIIa pathway, making coagulation dependent on the amplification loop through FIX/FVIII. Coagulation requires calcium (not shown) and takes place on phospholipid surfaces, usually the activated platelet membrane.",
+      "page": 513,
+      "src": "assets/visuals/ch69_figure_69_1.webp"
+    },
+    {
+      "id": "figure_69_2",
+      "chapterNum": 69,
+      "code": "FIGURE 69-2",
+      "kind": "Figure",
+      "caption": "Fibrin formation and dissolution. (A) Fibrinogen is a trinodular structure consisting of two D domains and one E domain. Thrombin activation results in an ordered lateral assembly of protofibrils (B) with noncovalent associations. Factor XIIIa cross-links the D domains on adjacent molecules (C). Fibrin and fibrinogen (not shown) lysis by plasmin occurs at discrete sites and results in intermediary fibrin(ogen) degradation products (not shown). d-Dimers are the product of complete lysis of fibrin (D), maintaining the cross-linked D domains.",
+      "page": 514,
+      "src": "assets/visuals/ch69_figure_69_2.webp"
+    },
+    {
+      "id": "figure_69_3",
+      "chapterNum": 69,
+      "code": "FIGURE 69-3",
+      "kind": "Algorithm / Flowchart",
+      "caption": "The activated protein C pathway in regulation of thrombosis. Thrombin generation results in protein C activation through interaction with thrombomodulin and protein C bound to the endothelial protein C receptor (EPCR). Activated protein C (APC) with free protein S converts activated factors (F) VIII and V to inactivate forms, thus in turn decreasing thrombin generation. C4BP, C4 binding protein; EC, endothelial cell; F, factor; IIa, thrombin; PC, protein C; PS, protein S; TM, thrombomodulin.",
+      "page": 514,
+      "src": "assets/visuals/ch69_figure_69_3.webp"
+    },
+    {
+      "id": "figure_69_4",
+      "chapterNum": 69,
+      "code": "FIGURE 69-4",
+      "kind": "Figure",
+      "caption": "A schematic diagram of the fibrinolytic system. Tissue plasminogen activator (tPA) is released from endothelial cells, binds the fibrin clot, and activates plasminogen to plasmin. Release of plasminogen activator inhibitors (PAI-1 and PAI-2) inhibits tPA and urokinase (uPA). Excess fibrin is degraded by plasmin to distinct degradation products [FDPs (d-dimers)]. Any free plasmin is complexed with α2-antiplasmin (α2Pl). PAI, plasminogen activator inhibitor; uPA, urokinase-type plasminogen activator.",
+      "page": 514,
+      "src": "assets/visuals/ch69_figure_69_4.webp"
+    },
+    {
+      "id": "table_69_1",
+      "chapterNum": 69,
+      "code": "TABLE 69-1",
+      "kind": "Table",
+      "caption": "Primary Hemostatic (Platelet Plug) Disorders",
+      "page": 515,
+      "src": "assets/visuals/ch69_table_69_1.webp"
+    },
+    {
+      "id": "table_69_2",
+      "chapterNum": 69,
+      "code": "TABLE 69-2",
+      "kind": "Table",
+      "caption": "Some Risk Factors for Thrombosis",
+      "page": 516,
+      "src": "assets/visuals/ch69_table_69_2.webp"
+    },
+    {
+      "id": "figure_69_5",
+      "chapterNum": 69,
+      "code": "FIGURE 69-5",
+      "kind": "Figure",
+      "caption": "Thrombotic risk over time. Shown schematically is an individual’s thrombotic risk over time. An underlying factor V Leiden variant provides a “theoretically” constant increased risk. The thrombotic risk increases with age and, intermittently, with oral contraceptive (OCP) or oral hormone replacement therapy (HRT) use; other events, like major surgery or illness, will increase the risk further. At some point, the cumulative risk may increase to the threshold for thrombosis and result in deep venous thrombosis (DVT). Note: The magnitude and duration of risk portrayed in the figure are meant for example only and may not precisely reflect the relative risk determined by clinical study. (Sources: From BA Konkle, A Schafer, in DP Zipes et al [eds]: Braunwald’s Heart Disease, 7th ed. Philadelphia, Saunders, 2005; from FR Rosendaal: Venous thrombosis: A multicausal disease. Lancet 353:1167, 1999.)",
+      "page": 517,
+      "src": "assets/visuals/ch69_figure_69_5.webp"
+    },
+    {
+      "id": "figure_69_6",
+      "chapterNum": 69,
+      "code": "FIGURE 69-6",
+      "kind": "Figure",
+      "caption": "Coagulation factor activity tested in the activated partial thromboplastin time (aPTT) in red and prothrombin time (PT) in green, or both. F, factor; HMWK, high-molecular-weight kininogen; PK, prekallikrein.",
+      "page": 517,
+      "src": "assets/visuals/ch69_figure_69_6.webp"
+    },
+    {
+      "id": "table_69_3",
+      "chapterNum": 69,
+      "code": "TABLE 69-3",
+      "kind": "Table",
+      "caption": "Hemostatic Disorders and Coagulation Test Abnormalities",
+      "page": 518,
+      "src": "assets/visuals/ch69_table_69_3.webp"
+    },
+    {
+      "id": "figure_71_1",
+      "chapterNum": 71,
+      "code": "FIGURE 71-1",
+      "kind": "Figure",
+      "caption": "The concept of a therapeutic ratio. Each panel illustrates the relationship between increasing dose and cumulative probability of a desired or adverse drug effect. Top. A drug with a wide therapeutic ratio, that is, a wide separation of the two curves. Bottom. A drug with a narrow therapeutic ratio; here, the likelihood of adverse effects at therapeutic doses is increased because the curves are not well separated. Further, a steep dose-response curve for adverse effects is especially undesirable, as it implies that even small dosage increments may sharply increase the likelihood of toxicity. When there is a definable relationship between drug concentration (usually measured in plasma) and desirable and adverse effect curves, concentration may be substituted on the abscissa. Note that not all patients necessarily demonstrate a therapeutic response (or adverse effect) at any dose and that some effects (notably some adverse effects) may occur in a dose-independent fashion.",
+      "page": 526,
+      "src": "assets/visuals/ch71_figure_71_1.webp"
+    },
+    {
+      "id": "figure_71_3",
+      "chapterNum": 71,
+      "code": "FIGURE 71-3",
+      "kind": "Figure",
+      "caption": "Mechanism of presystemic elimination. After drug enters the enterocyte, it can undergo metabolism, excretion into the intestinal lumen, or transport into the portal vein. Similarly, the hepatocyte may accomplish metabolism and biliary excretion prior to the entry of drug and metabolites to the systemic circulation. (Reproduced with permission from DM Roden, in DP Zipes, J Jalife [eds]: Cardiac Electrophysiology: From Cell to Bedside, 4th ed. Philadelphia, Saunders, 2003.)",
+      "page": 527,
+      "src": "assets/visuals/ch71_figure_71_3.webp"
+    },
+    {
+      "id": "figure_71_2",
+      "chapterNum": 71,
+      "code": "FIGURE 71-2",
+      "kind": "Figure",
+      "caption": "Idealized time-plasma concentration curves after a single dose of drug. A. The time course of drug concentration after an instantaneous intravenous (IV) bolus or an oral dose in the one-compartment model shown. The area under the time-concentration curve is clearly less with the oral drug than the IV drug, indicating incomplete bioavailability. Note that despite this incomplete bioavailability, concentration after the oral dose can be higher than after the IV dose at some time points. The inset shows that the decline of concentrations over time is linear on a log-linear plot, characteristic of first-order elimination, and that oral and IV drugs have the same elimination (parallel) time course. B. The decline of central compartment concentration when drug is distributed both to and from a peripheral compartment and eliminated from the central compartment. The rapid initial decline of concentration reflects not drug elimination but distribution.",
+      "page": 527,
+      "src": "assets/visuals/ch71_figure_71_2.webp"
+    },
+    {
+      "id": "table_71_1",
+      "chapterNum": 71,
+      "code": "TABLE 71-1",
+      "kind": "Table",
+      "caption": "Molecular Pathways Mediating Drug Disposition",
+      "page": 528,
+      "src": "assets/visuals/ch71_table_71_1.webp"
+    },
+    {
+      "id": "figure_71_4",
+      "chapterNum": 71,
+      "code": "FIGURE 71-4",
+      "kind": "Figure",
+      "caption": "Drug accumulation to steady state. In this simulation, drug was administered (arrows) at intervals = 50% of the elimination half-life. Steady state is achieved during initiation of therapy after ∼5 elimination half-lives, or 10 doses. A loading dose did not alter the eventual steady state achieved. A doubling of the dose resulted in a doubling of the steady state but the same time course of accumulation. Once steady state is achieved, a change in dose (increase, decrease, or drug discontinuation) results in a new steady state in ∼5 elimination half-lives. (Reproduced with permission from DM Roden, in DP Zipes, J Jalife [eds]: Cardiac Electrophysiology: From Cell to Bedside, 4th ed. Philadelphia, Saunders, 2003.)",
+      "page": 528,
+      "src": "assets/visuals/ch71_figure_71_4.webp"
+    },
+    {
+      "id": "figure_71_5",
+      "chapterNum": 71,
+      "code": "FIGURE 71-5",
+      "kind": "Figure",
+      "caption": "Drug concentrations in specific tissues may not always parallel those in plasma. For example, the efflux pump P-glycoprotein excludes drugs from the endothelium of capillaries in the brain and so constitutes a key element of the blood-brain barrier. Reduced P-glycoprotein function (e.g., due to drug interactions) can thus increase penetration of substrate drugs into the brain, even when plasma concentrations are unchanged.",
+      "page": 530,
+      "src": "assets/visuals/ch71_figure_71_5.webp"
+    },
+    {
+      "id": "table_71_2",
+      "chapterNum": 71,
+      "code": "TABLE 71-2",
+      "kind": "Table",
+      "caption": "Drug Interactions",
+      "page": 532,
+      "src": "assets/visuals/ch71_table_71_2.webp"
+    }
+  ]
+}

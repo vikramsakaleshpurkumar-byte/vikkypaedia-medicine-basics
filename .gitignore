@@ -1,0 +1,15 @@
+# OS & Editor artifacts
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+
+# Python & temporary logs
+__pycache__/
+*.pyc
+*.pyo
+*.log
+
+# Local machine validation output (contains local absolute path)
+validation_report.json
